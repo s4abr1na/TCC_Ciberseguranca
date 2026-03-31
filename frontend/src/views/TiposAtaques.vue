@@ -10,7 +10,8 @@
     <main class="conteudo">
       <div class="titulo-pagina">
         <button @click="$router.back()" class="btn-voltar">
-          &lt; </button>
+          ← 
+        </button>
         <h2>Tipos de Ataques</h2>
       </div>
 
@@ -19,72 +20,61 @@
       </div>
 
       <nav class="lista-ataques">
-        <button class="item-ataque" @click="$router.push('/senhas-e-acessos')">
+        <button class="item-ataque" @click="$router.push('/pagina-senhas-e-acessos')">
           <span class="texto">Senhas e acessos</span>
         </button>
 
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-copia-de-seguranca')">
           <span class="texto">Cópia de segurança</span>
         </button>
 
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-aplicativos-financeiros')">
           <span class="texto">Aplicativos financeiros</span>
         </button>
 
-        <button class="item-ataque">
-          <span class="texto">Notícias falsas e correntes</span>
+        <button class="item-ataque" @click="$router.push('/pagina-noticias-falsas')">
+          <span class="texto">Notícias falsas</span>
         </button>
 
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-seguranca-aparelho')">
           <span class="texto">Segurança no seu aparelho</span>
         </button>
 
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-virus-e-aplicativos-maliciosos')">
           <span class="texto">Vírus e Aplicativos Maliciosos</span>
         </button>
         
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-compras-pela-internet')"> 
           <span class="texto">Compras pela internet</span>
         </button>
 
-        <button class="item-ataque">
-          <span class="texto">Segurança no Computador</span>
-        </button>
-
-        <button class="item-ataque">
-          <span class="texto">Roubo ou perda de celular</span>
-        </button>
-
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-mensagens-e-links-falsos')"> 
           <span class="texto">Mensagens e links falsos</span>
         </button>
 
-        <button class="item-ataque">
-          <span class="texto">Meus dados pessoais</span>
+        <button class="item-ataque" @click="$router.push('/pagina-dados-pessoais')"> 
+          <span class="texto">Dados pessoais</span>
         </button>
         
-        <button class="item-ataque">
-          <span class="texto">Como se proteger</span>
-        </button>
-        
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-wifi-e-internet')">
           <span class="texto">Uso de Wi-fi e Internet</span>
         </button>
         
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-redes-sociais')">
           <span class="texto">Redes sociais</span>
         </button>
         
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-trabalho-remoto')">
           <span class="texto">Trabalho remoto</span>
         </button>
 
-        <button class="item-ataque">
+        <button class="item-ataque" @click="$router.push('/pagina-vazamento-de-dados')">
           <span class="texto">Vazamento de Dados</span>
         </button>
       </nav>
     </main>
 
+    <!--menu navegação-->
     <footer class="menu-inferior">
       <button class="nav-item">
         <span class="nav-texto">Início</span>

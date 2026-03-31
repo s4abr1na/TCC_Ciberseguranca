@@ -42,7 +42,7 @@
 
 /* Header Azul do Print */
 .header-azul {
-  background-color: #0d2646; /* Azul bem escuro */
+  background-color: #0d2646;
   padding: 30px 10px;
   text-align: center;
   color: white;

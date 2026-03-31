@@ -1,5 +1,5 @@
 <template>
-  <div class="pagina-senhas-e-acessos">
+  <div class="pagina-dados-pessoais">
     <header class="header-azul">
       <div class="logo-area">
         <h1 class="logo-texto">CIBER</h1>
@@ -7,7 +7,7 @@
       </div>
     </header>
 
-    <!--Conteúdo principal-->
+   <!--Conteúdo principal-->
     <main class="conteudo">
       <div class="navegacao-topo">
         <button @click="$router.back()" class="btn-voltar" aria-label="Voltar">
@@ -17,12 +17,11 @@
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Senhas e Acessos</h3>
+        <h3 class="subtitulo-tema">Dados Pessoais</h3>
         
         <p class="texto-descricao">
-          As senhas e credenciais são elementos fundamentais na segurança digital. 
-          É importante utilizar senhas fortes e únicas para cada conta, evitando 
-          reutilização entre diferentes serviços.
+            Os dados pessoais são informações que identificam você e podem ser usadas por criminosos para cometer fraudes. É importante proteger esses dados, pois podem ser usados para roubar sua identidade, acessar suas contas ou cometer outros tipos de crimes.
+            Para proteger seus dados pessoais, evite compartilhar informações sensíveis em redes sociais, use senhas fortes e únicas para cada conta e mantenha seu software atualizado. Além disso, tenha cuidado ao clicar em links suspeitos ou baixar aplicativos de fontes não confiáveis.
         </p>
 
         <button class="btn-video-destaque">
@@ -31,9 +30,7 @@
       </section>
     </main>
 
-
-    
-      <!--menu navegação-->
+          <!--menu navegação-->
     <footer class="menu-inferior">
       <button class="nav-item">
         <span class="nav-texto">Início</span>
