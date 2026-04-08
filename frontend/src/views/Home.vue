@@ -15,7 +15,7 @@
           <img src="C:\Users\Sabrina\Desktop\TCC\frontend\src\assets\tipos-de-ataques.png" alt="Tipos de Ataques" class="img-botao">
         </button>
 
-        <button @click="$router.push('/como-me-proteger')"  class="card-botao">
+        <button @click="$router.push('/pagina-como-me-proteger')"  class="card-botao">
           <img src="C:\Users\Sabrina\Desktop\TCC\frontend\src\assets\como-me-proteger.png" alt="Como me proteger" class="img-botao">
         </button>
 
@@ -34,10 +34,12 @@
 <style scoped>
 /* Reset e Container Principal */
 .home-container {
-  background-color: #f9f9f9;
+  /*background-color: #f9f9f9;*/
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
 }
 
 /* Header Azul do Print */

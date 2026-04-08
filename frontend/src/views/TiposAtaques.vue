@@ -98,7 +98,7 @@
 <style scoped>
 /* Container Principal e Reset */
 .pagina-ataques {
-  background-color: #f9f9f9; /* Fundo cinza clarinho */
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

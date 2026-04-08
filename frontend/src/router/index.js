@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+
+//BOTÃO: "TIPOS DE ATAQUES"
 import TiposAtaques from '../views/TiposAtaques.vue'
 import SenhasAcessos from '@/views/SenhasAcessos.vue'
 import CopiaDeSeguranca from '@/views/CopiaDeSeguranca.vue'
@@ -14,7 +16,10 @@ import WifiEInternet from '@/views/WifiEInternet.vue'
 import RedesSociais from '@/views/RedesSociais.vue'
 import TrabalhoRemoto from '@/views/TrabalhoRemoto.vue'
 import VazamentoDados from '@/views/VazamentoDados.vue'
-//import ComoMeProteger from '../views/ComoMeProteger.vue'
+
+//BOTÃO: "COMO ME PROTEGER?"
+import ComoMeProteger from '../views/ComoMeProteger.vue'
+import DicasRapidas from '@/views/DicasRapidas.vue'
 //import BoasPraticas from '../views/BoasPraticas.vue'
 //import CanaisDeComunicacao from '../views/CanaisDeComunicacao.vue'
 
@@ -95,13 +100,21 @@ const router = createRouter({
       path: '/pagina-vazamento-de-dados',
       name: 'VazamentoDados',
       component: VazamentoDados
-    }
+    },
 
-    /*{
-      path: '/como-me-proteger',
+    //BOTÃO: "COMO ME PROTEGER?"
+    {
+      path: '/pagina-como-me-proteger',
       name: 'ComoMeProteger',
       component: ComoMeProteger
     },
+
+    {
+      path: '/dicas-rapidas',
+      name: 'DicasRapidas',
+      component: DicasRapidas
+    }
+    /*
     {
       path: '/boas-praticas',
       name: 'BoasPraticas',

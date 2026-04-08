@@ -20,8 +20,8 @@
         <h3 class="subtitulo-tema">Cópia de Segurança</h3>
         
         <p class="texto-descricao">
-            Fazer cópias de segurança, também chamadas de “backup”, é uma das formas mais simples e importantes de se proteger no mundo digital. Imagine perder fotos de família, contatos ou documentos importantes por causa de um vírus ou golpe — isso acontece com mais frequência do que parece. Muitos ataques virtuais, como o sequestro de dados (quando criminosos bloqueiam seus arquivos e pedem dinheiro), podem causar grandes prejuízos, principalmente para quem não tem uma cópia guardada.
-            Por isso, é essencial manter uma cópia dos seus arquivos em um local seguro. Você pode usar um pendrive, um HD externo ou até serviços na internet (nuvem), que salvam seus dados automaticamente. O ideal é fazer isso com frequência, por exemplo, uma vez por semana ou sempre que adicionar algo importante.
+            Fazer cópias de segurança, também chamadas de “backup”, é uma das formas mais simples e importantes de se proteger no mundo digital. Imagine perder fotos de família, contatos ou documentos importantes por causa de um vírus ou golpe — isso acontece com mais frequência do que parece. Muitos ataques virtuais, como o sequestro de dados (quando criminosos bloqueiam seus arquivos e pedem dinheiro), podem causar grandes prejuízos, principalmente para quem não tem uma cópia guardada.<br>
+            Por isso, é essencial manter uma cópia dos seus arquivos em um local seguro. Você pode usar um pendrive, um HD externo ou até serviços na internet (nuvem), que salvam seus dados automaticamente. O ideal é fazer isso com frequência, por exemplo, uma vez por semana ou sempre que adicionar algo importante.<br>
             Pense no backup como um “plano B”: se algo der errado, você não perde tudo. É uma atitude simples, mas que faz toda a diferença para sua segurança digital e tranquilidade no dia a dia.
         </p>
 
@@ -61,7 +61,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-bottom: 80px; /* Espaço para o menu inferior não cobrir o conteúdo */
+  padding-bottom: 40px; /* Espaço para o menu inferior não cobrir o conteúdo */
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -71,12 +71,23 @@
   text-align: center;
   color: white;
 }
-.logo-texto { font-size: 32px; letter-spacing: 4px; margin: 0; font-weight: 900; }
-.logo-subtexto { font-size: 18px; letter-spacing: 6px; margin: 0; font-weight: 300; }
+.logo-texto { 
+  font-size: 32px; 
+  letter-spacing: 4px; 
+  margin: 0; 
+  font-weight: 900; 
+}
+
+.logo-subtexto { 
+  font-size: 18px; 
+  letter-spacing: 6px; 
+  margin: 0; 
+  font-weight: 300; 
+}
 
 /* Conteúdo Principal */
 .conteudo {
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,7 +151,7 @@
   color: white;
   width: 100%;
   max-width: 320px;
-  padding: 25px;
+  padding: 45px;
   border: none;
   border-radius: 12px;
   font-size: 28px;
@@ -148,7 +159,7 @@
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /* Menu Inferior */
