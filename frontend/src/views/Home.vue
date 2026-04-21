@@ -12,37 +12,36 @@
 
       <div class="grade-botoes">
         <button @click="$router.push('/tipos-de-ataques')" class="card-botao">
-          <img src="C:\Users\Sabrina\Desktop\TCC\frontend\src\assets\tipos-de-ataques.png" alt="Tipos de Ataques" class="img-botao">
+          <img src="@/assets/tipos-de-ataques.png" alt="Tipos de Ataques" class="img-botao">
         </button>
 
         <button @click="$router.push('/pagina-como-me-proteger')"  class="card-botao">
-          <img src="C:\Users\Sabrina\Desktop\TCC\frontend\src\assets\como-me-proteger.png" alt="Como me proteger" class="img-botao">
+          <img src="@/assets/como-me-proteger.png" alt="Como me proteger" class="img-botao">
         </button>
 
         <button @click="$router.push('/boas-praticas')" class="card-botao">
-          <img src="C:\Users\Sabrina\Desktop\TCC\frontend\src\assets\boas-praticas.png" alt="Boas Práticas" class="img-botao">
+          <img src="@/assets/boas-praticas.png" alt="Boas Práticas" class="img-botao">
         </button>
 
         <button @click="$router.push('/canais-de-comunicacao')" class="card-botao">
-          <img src="C:\Users\Sabrina\Desktop\TCC\frontend\src\assets\canais-de-comunicacao.png" alt="Canais de Comunicação" class="img-botao">
+          <img src="@/assets/canais-de-comunicacao.png" alt="Canais de Comunicação" class="img-botao">
         </button>
       </div>
+      
     </div>
   </section>
 </template>
 
 <style scoped>
-/* Reset e Container Principal */
+/* Corpo da página */
 .home-container {
-  /*background-color: #f9f9f9;*/
   background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
 }
 
-/* Header Azul do Print */
+/* Cabeçalho azul */
 .header-azul {
   background-color: #0d2646;
   padding: 30px 10px;
@@ -73,11 +72,12 @@
 }
 
 .boas-vindas {
-  font-size: 20px;
+  font-size: 25px;
   color: #333;
   margin-bottom: 25px;
   font-weight: 400;
 }
+
 
 /* Grade de Botões */
 .grade-botoes {
@@ -93,12 +93,12 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  transition: transform 0.1s;
 }
 
 .card-botao:active {
   transform: scale(0.96); /* Efeito de clique */
 }
+
 
 .img-botao {
   width: 100%;
@@ -106,46 +106,6 @@
   display: block;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* Footer com Input e Robô */
-.footer-input {
-  margin-top: auto;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  justify-content: center;
-}
-
-.search-bar {
-  background-color: #e0e0e0;
-  padding: 10px 20px;
-  border-radius: 25px;
-  flex: 1;
-  max-width: 250px;
-}
-
-.search-bar input {
-  background: none;
-  border: none;
-  width: 100%;
-  outline: none;
-  color: #666;
-}
-
-.bot-icon {
-  background-color: #0d2646;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  color: white;
-  font-size: 24px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: all 0.4s;
 }
 </style>

@@ -21,7 +21,9 @@
         
         <p class="texto-descricao">
             As notícias falsas são uma das formas mais comuns de manipulação da informação em ambientes digitais. Elas podem ser disseminadas por meio de redes sociais, e-mails ou sites maliciosos, com o objetivo de enganar e influenciar a opinião pública.
+            <br><br>
             Para se proteger contra as notícias falsas, é importante verificar a fonte da informação, buscar confirmação em outros meios confiáveis e não compartilhar conteúdo sem antes verificar sua veracidade. Além disso, manter-se informado sobre os principais temas e tendências da atualidade pode ajudar a identificar informações suspeitas.
+            <br><br>
             A conscientização sobre o tema é fundamental para combater a desinformação e promover um ambiente digital mais seguro e responsável.
         </p>
 
@@ -54,131 +56,6 @@
 
 
 <!--ESTILIZAÇÃO-->
-<style scoped>
-/* Container Principal e Reset */
-.pagina-ataques {
-  background-color: #f9f9f9; /* Fundo cinza clarinho */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 80px; /* Espaço para o menu inferior não cobrir o conteúdo */
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-}
-
-.header-azul {
-  background-color: #0d2646;
-  padding: 30px 10px;
-  text-align: center;
-  color: white;
-}
-.logo-texto { font-size: 32px; letter-spacing: 4px; margin: 0; font-weight: 900; }
-.logo-subtexto { font-size: 18px; letter-spacing: 6px; margin: 0; font-weight: 300; }
-
-/* Conteúdo Principal */
-.conteudo {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Título e Voltar */
-.titulo-pagina {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  width: 100%;
-  max-width: 350px;
-  margin-bottom: 20px;
-  justify-content: center; /* Centraliza o conjunto */
-}
-
-.navegacao-topo {
-  display: flex;
-  align-items: center;
-  margin-bottom: 35px;
-  width: 100%;
-  justify-content: center;
-}
-
-.btn-voltar {
-  background: none;
-  border: none;
-  font-size: 35px;
-  cursor: pointer;
-  color: #333;
-  padding: 0;
-  margin-right: 15px;
-}
-
-.titulo-sessao {
-  font-size: 24px;
-  color: #333;
-  margin: 0;
-  font-weight: 400;
-}
-
-.subtitulo-tema {
-  font-size: 24px;
-  font-weight: 800;
-  color: #000;
-  margin-bottom: 20px;
-  text-align: center; /* Centraliza o subtítulo */
-}
-
-.texto-descricao {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #333;
-  margin-bottom: 40px;
-  text-align: justify; /* Texto justificado */
-}
-
-/* Botão de Vídeo */
-.btn-video-destaque {
-  background-color: #2e5a97;
-  color: white;
-  width: 100%;
-  max-width: 320px;
-  padding: 25px;
-  border: none;
-  border-radius: 12px;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  display: block;
-  margin: 0 auto;
-}
-
-/* Menu Inferior */
-.menu-inferior {
-  position: fixed;
-  bottom: 0;
-  max-width: 412px;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);  
-  background-color: #fff;
-  border-top: 1px solid #ddd;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
-  box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
-  z-index: 100;
-}
-
-.nav-item {
-  background: none;
-  border: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  color: #777;
-  cursor: pointer;
-  padding: 5px;
-}
-
-.nav-texto { font-size: 12px; font-weight: 400; }
+<style>
+  @import "@/assets/style.css";
 </style>

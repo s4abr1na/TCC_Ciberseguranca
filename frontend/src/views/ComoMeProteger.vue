@@ -101,7 +101,6 @@
 }
 
 /* Grade de Botões */
-
 .btn-video1, .btn-video2 {
   margin-bottom: 30px;
   height: 200px;

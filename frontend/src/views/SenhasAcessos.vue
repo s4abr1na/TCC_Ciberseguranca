@@ -20,9 +20,15 @@
         <h3 class="subtitulo-tema">Senhas e Acessos</h3>
         
         <p class="texto-descricao">
-          As senhas e credenciais são elementos fundamentais na segurança digital. 
-          É importante utilizar senhas fortes e únicas para cada conta, evitando 
-          reutilização entre diferentes serviços.
+          Suas senhas são a identidade digital. Se alguém as possui, essa pessoa se torna "você" perante o sistema. Para se proteger sem complicações, foque em três pilares:
+          <br><br>
+          Unicidade: Nunca repita senhas. Se o site "A" vazar, suas contas no "B" e "C" continuam seguras. Use frases-senha (ex: MeuCachorroLêLivros2026!), que são longas e fáceis de lembrar, mas difíceis para máquinas quebrarem.
+          <br><br>
+          O Segundo Escudo (MFA): Ative a autenticação de dois fatores. É a ferramenta mais eficaz hoje: mesmo que o hacker descubra sua senha, ele não entra sem o código extra no seu celular.
+          <br><br>
+          Gerenciadores: Use um gerenciador de senhas (como Bitwarden ou iCloud). Eles geram senhas aleatórias e você só precisa decorar uma única senha mestra.
+          <br><br>
+          Regra de Ouro: Se a senha é fácil de lembrar para você, ela provavelmente é fácil de prever para um software de ataque. Tamanho importa mais que símbolos complexos.
         </p>
 
         <button class="btn-video-destaque">
@@ -56,131 +62,6 @@
 
 
 <!--ESTILIZAÇÃO-->
-<style scoped>
-/* Container Principal e Reset */
-.pagina-ataques {
-  background-color: #f9f9f9; /* Fundo cinza clarinho */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 80px; /* Espaço para o menu inferior não cobrir o conteúdo */
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-}
-
-.header-azul {
-  background-color: #0d2646;
-  padding: 30px 10px;
-  text-align: center;
-  color: white;
-}
-.logo-texto { font-size: 32px; letter-spacing: 4px; margin: 0; font-weight: 900; }
-.logo-subtexto { font-size: 18px; letter-spacing: 6px; margin: 0; font-weight: 300; }
-
-/* Conteúdo Principal */
-.conteudo {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Título e Voltar */
-.titulo-pagina {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  width: 100%;
-  max-width: 350px;
-  margin-bottom: 20px;
-  justify-content: center; /* Centraliza o conjunto */
-}
-
-.navegacao-topo {
-  display: flex;
-  align-items: center;
-  margin-bottom: 35px;
-  width: 100%;
-  justify-content: center;
-}
-
-.btn-voltar {
-  background: none;
-  border: none;
-  font-size: 35px;
-  cursor: pointer;
-  color: #333;
-  padding: 0;
-  margin-right: 15px;
-}
-
-.titulo-sessao {
-  font-size: 24px;
-  color: #333;
-  margin: 0;
-  font-weight: 400;
-}
-
-.subtitulo-tema {
-  font-size: 24px;
-  font-weight: 800;
-  color: #000;
-  margin-bottom: 20px;
-  text-align: center; /* Centraliza o subtítulo */
-}
-
-.texto-descricao {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #333;
-  margin-bottom: 40px;
-  text-align: justify; /* Texto justificado */
-}
-
-/* Botão de Vídeo */
-.btn-video-destaque {
-  background-color: #2e5a97;
-  color: white;
-  width: 100%;
-  max-width: 320px;
-  padding: 25px;
-  border: none;
-  border-radius: 12px;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  display: block;
-  margin: 0 auto;
-}
-
-/* Menu Inferior */
-.menu-inferior {
-  position: fixed;
-  bottom: 0;
-  max-width: 412px;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);  
-  background-color: #fff;
-  border-top: 1px solid #ddd;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
-  box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
-  z-index: 100;
-}
-
-.nav-item {
-  background: none;
-  border: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  color: #777;
-  cursor: pointer;
-  padding: 5px;
-}
-
-.nav-texto { font-size: 12px; font-weight: 400; }
+<style>
+  @import "@/assets/style.css";
 </style>
