@@ -16,11 +16,11 @@
       </div>
 
       <div class="grade-botoes">
-        <button @click="$router.push('/dicas-rapidas')" class="btn-video1">
+        <button @click="$router.push('/como-me-proteger-pagina-dicas-rapidas')" class="btn-video1">
           Dicas rápidas
         </button>
 
-        <button @click="$router.push('/tecnologias-de-prevencao')" class="btn-video2">
+        <button @click="$router.push('/como-me-proteger-pagina-tecnologias-para-prevencao')" class="btn-video2">
           Tecnologias para prevenção
         </button>
       </div>

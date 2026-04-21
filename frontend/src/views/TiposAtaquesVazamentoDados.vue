@@ -1,5 +1,5 @@
 <template>
-  <div class="pagina-noticias-falsas">
+  <div class="tipos-ataques-pagina-vazamento-de-dados">
     <header class="header-azul">
       <div class="logo-area">
         <h1 class="logo-texto">CIBER</h1>
@@ -17,14 +17,12 @@
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Notícias Falsas</h3>
+        <h3 class="subtitulo-tema">Vazamento de Dados</h3>
         
         <p class="texto-descricao">
-            As notícias falsas são uma das formas mais comuns de manipulação da informação em ambientes digitais. Elas podem ser disseminadas por meio de redes sociais, e-mails ou sites maliciosos, com o objetivo de enganar e influenciar a opinião pública.
+            Um vazamento de dados ocorre quando informações pessoais ou confidenciais são expostas sem autorização. Isso pode acontecer devido a falhas de segurança, ataques cibernéticos ou erros humanos. 
             <br><br>
-            Para se proteger contra as notícias falsas, é importante verificar a fonte da informação, buscar confirmação em outros meios confiáveis e não compartilhar conteúdo sem antes verificar sua veracidade. Além disso, manter-se informado sobre os principais temas e tendências da atualidade pode ajudar a identificar informações suspeitas.
-            <br><br>
-            A conscientização sobre o tema é fundamental para combater a desinformação e promover um ambiente digital mais seguro e responsável.
+            Os dados vazados podem incluir senhas, números de cartão de crédito, endereços e outras informações sensíveis.
         </p>
 
         <button class="btn-video-destaque">
@@ -57,5 +55,5 @@
 
 <!--ESTILIZAÇÃO-->
 <style>
-  @import "@/assets/style.css";
+  @import '@/assets/style.css'
 </style>

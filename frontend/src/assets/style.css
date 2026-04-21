@@ -80,15 +80,23 @@
 }
 
 .texto-descricao {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.5;
   color: #333;
   margin-bottom: 40px;
   text-align: justify;
 }
 
+.texto-descricao-dicas{
+  font-size: 25px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
 /* Botão de Vídeo */
-.btn-video-destaque {
+.btn-video-destaque, .btn-cartilha, .btn-podcast {
   background-color: #2e5a97;
   color: white;
   width: 100%;

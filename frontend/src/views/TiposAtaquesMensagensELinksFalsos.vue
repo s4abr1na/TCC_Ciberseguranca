@@ -1,5 +1,5 @@
 <template>
-  <div class="pagina-compras-pela-internet">
+  <div class="tipos-ataques-pagina-mensagens-e-links-falsos">
     <header class="header-azul">
       <div class="logo-area">
         <h1 class="logo-texto">CIBER</h1>
@@ -17,14 +17,14 @@
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Compras pela Internet</h3>
+        <h3 class="subtitulo-tema">Mensagens e Links Falsos</h3>
         
         <p class="texto-descricao">
-            As compras online têm se tornado cada vez mais comuns, oferecendo conveniência e variedade. No entanto, é importante estar atento aos riscos associados a essas transações. Golpes e fraudes podem ocorrer quando você não toma as devidas precauções.
+            Mensagens e links falsos são uma das formas mais comuns de golpes virtuais. Criminosos enviam mensagens que parecem ser de empresas, bancos ou até amigos, mas na verdade são falsas. Essas mensagens podem conter links que levam a sites fraudulentos, onde tentam roubar suas informações pessoais ou instalar vírus no seu aparelho.
             <br><br>
-            Criminosos podem tentar enganar você com sites falsos, ofertas ilusórias ou práticas comerciais desonestas para roubar seus dados e informações financeiras. Por isso, é importante sempre verificar a legitimidade do site antes de realizar qualquer compra e utilizar métodos de pagamento seguros.
+            Para se proteger, é importante nunca clicar em links suspeitos ou baixar arquivos de remetentes desconhecidos. Sempre verifique o remetente da mensagem e desconfie de ofertas muito boas para serem verdade. Se receber uma mensagem de um banco ou empresa, é melhor acessar o site oficial diretamente pelo navegador do que clicar no link enviado.
             <br><br>
-            Outra dica importante é manter o navegador atualizado e utilizar softwares de proteção contra malware. Com alguns cuidados simples, você pode aproveitar toda a praticidade das compras online com muito mais segurança e tranquilidade.
+            Lembre-se: quando algo parece estranho, é melhor não arriscar. Com atenção e cuidado, você pode evitar cair nesses golpes e manter suas informações seguras.
         </p>
 
         <button class="btn-video-destaque">

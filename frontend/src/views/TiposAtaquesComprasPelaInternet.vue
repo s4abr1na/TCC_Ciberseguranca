@@ -1,5 +1,5 @@
 <template>
-  <div class="pagina-redes-sociais">
+  <div class="tipos-ataques-pagina-compras-pela-internet">
     <header class="header-azul">
       <div class="logo-area">
         <h1 class="logo-texto">CIBER</h1>
@@ -17,14 +17,14 @@
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Redes Sociais</h3>
+        <h3 class="subtitulo-tema">Compras pela Internet</h3>
         
         <p class="texto-descricao">
-            As redes sociais são ferramentas poderosas que conectam pessoas ao redor do mundo. No entanto, elas também podem ser exploradas por criminosos para cometer fraudes e ataques. Golpistas frequentemente criam perfis falsos, enviam mensagens enganosas e compartilham links maliciosos para roubar informações pessoais e financeiras.
+            As compras online têm se tornado cada vez mais comuns, oferecendo conveniência e variedade. No entanto, é importante estar atento aos riscos associados a essas transações. Golpes e fraudes podem ocorrer quando você não toma as devidas precauções.
             <br><br>
-            Para se proteger, é essencial manter as configurações de privacidade atualizadas, não aceitar convites de pessoas desconhecidas e evitar clicar em links suspeitos. Além disso, é importante não compartilhar informações sensíveis em público e reportar qualquer conteúdo suspeito imediatamente.
+            Criminosos podem tentar enganar você com sites falsos, ofertas ilusórias ou práticas comerciais desonestas para roubar seus dados e informações financeiras. Por isso, é importante sempre verificar a legitimidade do site antes de realizar qualquer compra e utilizar métodos de pagamento seguros.
             <br><br>
-            Com algumas precauções simples, você pode desfrutar das vantagens das redes sociais sem colocar sua segurança em risco.
+            Outra dica importante é manter o navegador atualizado e utilizar softwares de proteção contra malware. Com alguns cuidados simples, você pode aproveitar toda a praticidade das compras online com muito mais segurança e tranquilidade.
         </p>
 
         <button class="btn-video-destaque">

@@ -1,5 +1,5 @@
 <template>
-  <div class="pagina-aplicativos-financeiros">
+  <div class="boas-praticas-pagina-backup">
     <header class="header-azul">
       <div class="logo-area">
         <h1 class="logo-texto">CIBER</h1>
@@ -13,20 +13,22 @@
         <button @click="$router.back()" class="btn-voltar" aria-label="Voltar">
           ←
         </button>
-        <h2 class="titulo-sessao">Tipos de Ataques</h2>
+        <h2 class="titulo-sessao">Boas Práticas</h2>
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Trabalho Remoto</h3>
+        <h3 class="subtitulo-tema">Backup</h3>
         
         <p class="texto-descricao">
-            O trabalho remoto tem se tornado cada vez mais comum, mas também apresenta riscos de segurança. É importante manter uma rede segura e usar ferramentas confiáveis para proteger suas informações.
-            Criminosos podem explorar vulnerabilidades em redes Wi-Fi públicas ou tentar se infiltrar em sistemas através de e-mails phishing. Por isso, é essencial manter o software atualizado e utilizar senhas fortes.
-            Outra dica importante é manter o celular protegido com senha ou biometria e evitar usar aplicativos financeiros em redes Wi-Fi públicas. Com alguns cuidados simples, você pode aproveitar toda a praticidade desses aplicativos com muito mais segurança e tranquilidade.
+          Backup é o Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidente ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
 
-        <button class="btn-video-destaque">
-          Vídeo
+        <button class="btn-cartilha">
+            Cartilha
+        </button>
+        
+        <button class="btn-podcast">
+            Podcast
         </button>
       </section>
     </main>

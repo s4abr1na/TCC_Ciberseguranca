@@ -1,5 +1,5 @@
 <template>
-  <div class="pagina-ataques">
+  <div class="pagina-boas-praticas">
     <header class="header-azul">
       <div class="logo-area">
         <h1 class="logo-texto">CIBER</h1>
@@ -12,59 +12,71 @@
         <button @click="$router.back()" class="btn-voltar">
           ← 
         </button>
-        <h2>Tipos de Ataques</h2>
+        <h2>Boas Práticas</h2>
       </div>
 
-      <nav class="lista-ataques">
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-senhas-e-acessos')">
-          <span class="texto">Senhas e acessos</span>
+      <nav class="lista-boas-praticas">
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-autenticacao')">
+          <span class="texto">Autenticação</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-copia-de-seguranca')">
-          <span class="texto">Cópia de segurança</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-backup')">
+          <span class="texto">Backup</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-aplicativos-financeiros')">
-          <span class="texto">Aplicativos financeiros</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-banco-via-internet')">
+          <span class="texto">Banco via Internet</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-noticias-falsas')">
-          <span class="texto">Notícias falsas</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-boatos')">
+          <span class="texto">Boatos</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-seguranca-aparelho')">
-          <span class="texto">Segurança no seu aparelho</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-celulares-tablets')">
+          <span class="texto">Celulares e Tablets</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-virus-e-aplicativos-maliciosos')">
-          <span class="texto">Vírus e Aplicativos Maliciosos</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-codigos-maliciosos')">
+          <span class="texto">Códigos Maliciosos</span>
         </button>
         
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-compras-pela-internet')"> 
-          <span class="texto">Compras pela internet</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-comercio-via-internet')"> 
+          <span class="texto">Comércio via Internet</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-mensagens-e-links-falsos')"> 
-          <span class="texto">Mensagens e links falsos</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-computadores')"> 
+          <span class="texto">Computadores</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-dados-pessoais')"> 
-          <span class="texto">Dados pessoais</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-furto-de-celulares')"> 
+          <span class="texto">Furto de Celular</span>
         </button>
         
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-wifi-e-internet')">
-          <span class="texto">Uso de Wi-fi e Internet</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-phishing')">
+          <span class="texto">Phishing e Outros Golpes</span>
         </button>
         
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-redes-sociais')">
-          <span class="texto">Redes sociais</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-privacidade')">
+          <span class="texto">Privacidade</span>
         </button>
         
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-trabalho-remoto')">
-          <span class="texto">Trabalho remoto</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-protecao-de-dados')">
+          <span class="texto">Proteção de Dados</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-vazamento-de-dados')">
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-redes')">
+          <span class="texto">Redes</span>
+        </button>
+
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-redes-sociais-boas-praticas')">
+          <span class="texto">Redes Sociais</span>
+        </button>
+
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-trabalho-remoto')">
+          <span class="texto">Trabalho Remoto</span>
+        </button>
+
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-vazamento-de-dados')">
           <span class="texto">Vazamento de Dados</span>
         </button>
       </nav>
@@ -167,14 +179,15 @@
 }
 
 /* Lista de Itens (Menu) */
-.lista-ataques {
+.lista-boas-praticas {
   width: 100%;
   max-width: 350px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-bottom: 40px;
 }
-.item-ataque {
+.item-boas-praticas {
   background: none;
   border: none;
   padding: 15px;
@@ -187,15 +200,11 @@
   text-align: left;
   width: 100%;
 }
-.item-ataque:hover, .item-ataque:active {
+.item-boas-praticas:hover, .item-boas-praticas:active {
   background-color: #eaeaea; /* Efeito visual de clique */
 }
-.item-ataque .icone {
-  font-size: 30px; /* Ícones grandes para visualização */
-  width: 50px; /* Garante que os ícones fiquem alinhados */
-  text-align: center;
-}
-.item-ataque .texto {
+
+.item-boas-praticas .texto {
   font-size: 20px; /* Letras grandes para leitura */
   color: #333;
   font-weight: 400;

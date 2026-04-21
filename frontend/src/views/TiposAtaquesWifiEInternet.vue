@@ -1,5 +1,5 @@
 <template>
-  <div class="pagina-copia-de-seguranca">
+  <div class="tipos-ataques-pagina-wifi-e-internet">
     <header class="header-azul">
       <div class="logo-area">
         <h1 class="logo-texto">CIBER</h1>
@@ -17,14 +17,14 @@
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Cópia de Segurança</h3>
+        <h3 class="subtitulo-tema">Wi-Fi e Internet</h3>
         
         <p class="texto-descricao">
-            Fazer cópias de segurança, também chamadas de “backup”, é uma das formas mais simples e importantes de se proteger no mundo digital. Imagine perder fotos de família, contatos ou documentos importantes por causa de um vírus ou golpe — isso acontece com mais frequência do que parece. Muitos ataques virtuais, como o sequestro de dados (quando criminosos bloqueiam seus arquivos e pedem dinheiro), podem causar grandes prejuízos, principalmente para quem não tem uma cópia guardada.<br>
-            <br>
-            Por isso, é essencial manter uma cópia dos seus arquivos em um local seguro. Você pode usar um pendrive, um HD externo ou até serviços na internet (nuvem), que salvam seus dados automaticamente. O ideal é fazer isso com frequência, por exemplo, uma vez por semana ou sempre que adicionar algo importante.<br>
-            <br>
-            Pense no backup como um “plano B”: se algo der errado, você não perde tudo. É uma atitude simples, mas que faz toda a diferença para sua segurança digital e tranquilidade no dia a dia.
+            O uso de Wi-Fi e internet é uma parte essencial da vida moderna, mas também pode expor seus dados a riscos. Redes Wi-Fi públicas, por exemplo, podem ser usadas por criminosos para interceptar informações sensíveis.
+            <br><br>
+            Para se proteger, evite acessar contas bancárias ou outras informações confidenciais em redes Wi-Fi públicas. Use sempre uma conexão segura e confiável.
+            <br><br>
+            Além disso, mantenha seu dispositivo atualizado com as últimas correções de segurança e utilize um firewall e antivírus confiáveis. Com alguns cuidados simples, você pode aproveitar toda a praticidade da internet com muito mais segurança e tranquilidade.
         </p>
 
         <button class="btn-video-destaque">
@@ -33,7 +33,7 @@
       </section>
     </main>
 
-    <!--menu navegação-->
+          <!--menu navegação-->
     <footer class="menu-inferior">
       <button class="nav-item">
         <span class="nav-texto">Início</span>
@@ -57,5 +57,5 @@
 
 <!--ESTILIZAÇÃO-->
 <style>
-  @import "@/assets/style.css";
+  @import '@/assets/style.css'
 </style>

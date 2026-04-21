@@ -19,7 +19,7 @@
           <img src="@/assets/como-me-proteger.png" alt="Como me proteger" class="img-botao">
         </button>
 
-        <button @click="$router.push('/boas-praticas')" class="card-botao">
+        <button @click="$router.push('/pagina-boas-praticas')" class="card-botao">
           <img src="@/assets/boas-praticas.png" alt="Boas Práticas" class="img-botao">
         </button>
 
