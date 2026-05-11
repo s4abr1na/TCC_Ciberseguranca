@@ -33,7 +33,7 @@
       </section>
     </main>
 
-          <!--menu navegação-->
+    <!--menu navegação-->
     <footer class="menu-inferior">
       <button class="nav-item">
         <span class="nav-texto">Início</span>

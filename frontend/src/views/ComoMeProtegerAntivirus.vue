@@ -27,7 +27,6 @@
 
             <strong>Sugestão para download:</strong>
         </p>
-    
     </main>
 
 

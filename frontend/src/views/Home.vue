@@ -33,39 +33,11 @@
 </template>
 
 <style scoped>
-/* Corpo da página */
-.home-container {
-  background-color: #ffffff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Cabeçalho azul */
-.header-azul {
-  background-color: #0d2646;
-  padding: 30px 10px;
-  text-align: center;
-  color: white;
-}
-
-.logo-texto {
-  font-size: 32px;
-  letter-spacing: 4px;
-  margin: 0;
-  font-weight: 900;
-}
-
-.logo-subtexto {
-  font-size: 18px;
-  letter-spacing: 6px;
-  margin: 0;
-  font-weight: 300;
-}
+@import '@/assets/style.css';
 
 /* Conteúdo */
 .content {
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,7 +49,6 @@
   margin-bottom: 25px;
   font-weight: 400;
 }
-
 
 /* Grade de Botões */
 .grade-botoes {
@@ -98,7 +69,6 @@
 .card-botao:active {
   transform: scale(0.96); /* Efeito de clique */
 }
-
 
 .img-botao {
   width: 100%;

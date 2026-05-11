@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ciberguardiao</string>
+    <string name="title_activity_main">ciberguardiao</string>
+    <string name="package_name">com.tcc.app</string>
+    <string name="custom_url_scheme">com.tcc.app</string>
+</resources>
