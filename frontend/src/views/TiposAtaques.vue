@@ -12,7 +12,7 @@
         <button @click="$router.back()" class="btn-voltar">
           ← 
         </button>
-        <h2>Tipos de Ataques</h2>
+        <h2>Conheça os Tipos de Ataques</h2>
       </div>
 
       <nav class="lista-ataques">

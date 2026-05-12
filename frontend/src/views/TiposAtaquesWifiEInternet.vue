@@ -13,7 +13,7 @@
         <button @click="$router.back()" class="btn-voltar" aria-label="Voltar">
           ←
         </button>
-        <h2 class="titulo-sessao">Tipos de Ataques</h2>
+        <h2 class="titulo-sessao">Conheça os Tipos de Ataques</h2>
       </div>
 
       <section class="info-ataque">
@@ -27,11 +27,29 @@
             Além disso, mantenha seu dispositivo atualizado com as últimas correções de segurança e utilize um firewall e antivírus confiáveis. Com alguns cuidados simples, você pode aproveitar toda a praticidade da internet com muito mais segurança e tranquilidade.
         </p>
 
-        <button class="btn-video-destaque">
-          Vídeo
+        <!-- Botão que abre o modal -->
+         <!--MODAL: é uma janela que aparece por cima do conteúdo da página, bloqueando a interação com o resto até ser fechada-->
+        <button class="btn-video-destaque" @click="modalAberto = true">
+          ▶ Vídeo
         </button>
       </section>
     </main>
+
+    <!-- Modal do vídeo -->
+     <!-- O v-if é uma instrução que mostrará ou esconderá o vídeo se modalAberto for true ou false-->
+    <div v-if="modalAberto" class="modal-overlay" @click.self="fecharVideo">
+      <div class="modal-container">
+        <button class="btn-fechar" @click="fecharVideo">✕</button>
+        <iframe
+          src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        />
+      </div>
+    </div>
 
           <!--menu navegação-->
     <footer class="menu-inferior">
@@ -54,8 +72,17 @@
   </div>
 </template>
 
+<script setup>
+  import { ref } from 'vue'
+
+  const modalAberto = ref(false)
+
+  function fecharVideo() {
+    modalAberto.value = false
+  }
+</script>
 
 <!--ESTILIZAÇÃO-->
 <style>
-  @import '@/assets/style.css'
+  @import "@/assets/style.css";
 </style>

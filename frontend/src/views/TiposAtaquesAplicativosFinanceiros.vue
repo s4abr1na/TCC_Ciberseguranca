@@ -13,7 +13,7 @@
         <button @click="$router.back()" class="btn-voltar" aria-label="Voltar">
           ←
         </button>
-        <h2 class="titulo-sessao">Tipos de Ataques</h2>
+        <h2 class="titulo-sessao">Conheça os Tipos de Ataques</h2>
       </div>
 
       <section class="info-ataque">
@@ -85,42 +85,4 @@
 <!--ESTILIZAÇÃO-->
 <style>
   @import "@/assets/style.css";
-</style>
-
-<style scoped>
-
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.75);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-
-.modal-container {
-  position: relative;
-  width: 90%;
-  max-width: 800px;
-  aspect-ratio: 16 / 9;
-}
-
-.modal-container iframe {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-}
-
-.btn-fechar {
-  position: absolute;
-  top: -36px;
-  right: 0;
-  background: transparent;
-  color: white;
-  border: none;
-  font-size: 1.4rem;
-  cursor: pointer;
-}
-
 </style>

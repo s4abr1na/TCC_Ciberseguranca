@@ -12,7 +12,7 @@
         <button @click="$router.back()" class="btn-voltar">
           ← 
         </button>
-        <h2>Como me proteger?</h2>
+        <h2>Saiba Como se Proteger</h2>
       </div>
 
       <div class="grade-botoes">

@@ -12,7 +12,7 @@
         <button @click="$router.back()" class="btn-voltar">
           ← 
         </button>
-        <h2>Boas Práticas</h2>
+        <h2>Adote Boas Práticas</h2>
       </div>
 
       <nav class="lista-boas-praticas">
@@ -105,7 +105,7 @@
 
 <style scoped>
 /* Container Principal e Reset */
-.pagina-ataques {
+.pagina-boas-praticas {
   background-color: #fff;
   min-height: 100vh;
   display: flex;

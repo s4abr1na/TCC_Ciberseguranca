@@ -13,7 +13,7 @@
         <button @click="$router.back()" class="btn-voltar" aria-label="Voltar">
           ←
         </button>
-        <h2 class="titulo-sessao">Boas Práticas</h2>
+        <h2 class="titulo-sessao">Adote Boas Práticas</h2>
       </div>
 
       <section class="info-ataque">

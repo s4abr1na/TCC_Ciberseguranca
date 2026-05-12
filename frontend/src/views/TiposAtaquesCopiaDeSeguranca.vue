@@ -13,7 +13,7 @@
         <button @click="$router.back()" class="btn-voltar" aria-label="Voltar">
           ←
         </button>
-        <h2 class="titulo-sessao">Tipos de Ataques</h2>
+        <h2 class="titulo-sessao">Conheça os Tipos de Ataques</h2>
       </div>
 
       <section class="info-ataque">
@@ -27,13 +27,31 @@
             Pense no backup como um “plano B”: se algo der errado, você não perde tudo. É uma atitude simples, mas que faz toda a diferença para sua segurança digital e tranquilidade no dia a dia.
         </p>
 
-        <button class="btn-video-destaque">
-          Vídeo
+        <!-- Botão que abre o modal -->
+         <!--MODAL: é uma janela que aparece por cima do conteúdo da página, bloqueando a interação com o resto até ser fechada-->
+        <button class="btn-video-destaque" @click="modalAberto = true">
+          ▶ Vídeo
         </button>
       </section>
     </main>
 
-    <!--menu navegação-->
+    <!-- Modal do vídeo -->
+     <!-- O v-if é uma instrução que mostrará ou esconderá o vídeo se modalAberto for true ou false-->
+    <div v-if="modalAberto" class="modal-overlay" @click.self="fecharVideo">
+      <div class="modal-container">
+        <button class="btn-fechar" @click="fecharVideo">✕</button>
+        <iframe
+          src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        />
+      </div>
+    </div>
+
+          <!--menu navegação-->
     <footer class="menu-inferior">
       <button class="nav-item">
         <span class="nav-texto">Início</span>
@@ -54,6 +72,15 @@
   </div>
 </template>
 
+<script setup>
+  import { ref } from 'vue'
+
+  const modalAberto = ref(false)
+
+  function fecharVideo() {
+    modalAberto.value = false
+  }
+</script>
 
 <!--ESTILIZAÇÃO-->
 <style>
