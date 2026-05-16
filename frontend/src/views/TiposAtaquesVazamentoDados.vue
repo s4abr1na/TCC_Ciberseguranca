@@ -2,18 +2,18 @@
   <div class="tipos-ataques-pagina-vazamento-de-dados">
     <header class="header-azul">
       <div class="logo-area">
-        <h1 class="logo-texto">CIBER</h1>
-        <p class="logo-subtexto">GUARDIÃ🌍</p>
+        <img src="@/assets/logo-fundo-branco-lupa.png" class="logo-imagem"/>
       </div>
     </header>
 
    <!--Conteúdo principal-->
     <main class="conteudo">
-      <div class="navegacao-topo">
-        <button @click="$router.back()" class="btn-voltar" aria-label="Voltar">
-          ←
+      <button @click="$router.back()" class= "btn-voltar">
+          <img src="@/assets/icone-voltar.png" class="icone-voltar"/>
         </button>
-        <h2 class="titulo-sessao">Conheça os Tipos de Ataques</h2>
+        
+      <div class="titulo-pagina">
+        <h2>Conheça os Tipos de Ataques</h2>
       </div>
 
       <section class="info-ataque">
@@ -51,19 +51,28 @@
 
           <!--menu navegação-->
     <footer class="menu-inferior">
-      <button class="nav-item">
+      <button @click="$router.push('/home')" class="nav-item">
+        <img src="@/assets/icone-home-vazio.png" class="icone-menu-navegacao"/>
         <span class="nav-texto">Início</span>
       </button>
-      <button class="nav-item">
+
+      <button @click="$router.push('/tipos-de-ataques')" class="nav-item">
+        <img src="@/assets/icone-ataques-preenchido.png" class="icone-menu-navegacao"/>
         <span class="nav-texto">Ataques</span>
       </button>
-      <button class="nav-item">
+
+      <button @click="$router.push('/pagina-como-me-proteger')" class="nav-item">
+        <img src="@/assets/icone-protecao-vazio.png" class="icone-menu-navegacao"/>
         <span class="nav-texto">Proteção</span>
       </button>
-      <button class="nav-item">
+
+      <button @click="$router.push('/pagina-boas-praticas')" class="nav-item">
+        <img src="@/assets/icone-boas-praticas-vazio.png" class="icone-menu-navegacao"/>
         <span class="nav-texto">Boas práticas</span>
       </button>
-      <button class="nav-item">
+
+      <button @click="$router.push('/pagina-canais-de-comunicacao')" class="nav-item">
+        <img src="@/assets/icone-canais-vazio.png" class="icone-menu-navegacao"/>
         <span class="nav-texto">Canais</span>
       </button>
     </footer>

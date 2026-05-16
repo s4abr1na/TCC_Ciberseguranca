@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import SplashScreen from '@/views/SplashScreen.vue'
+import PaginaOnboarding from '@/views/Pagina-Onboarding.vue'
 import Home from '../views/Home.vue'
+
 
 //BOTÃO: "TIPOS DE ATAQUES"
 import TiposAtaques from '../views/TiposAtaques.vue'
@@ -50,7 +53,16 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/', 
+      component: SplashScreen,
+    },
+    {
+      path: '/pagina-onboarding',
+      name: 'PaginaOnboarding',
+      component: PaginaOnboarding
+    },
+    {
+      path: '/home',
       name: 'Home',
       component: Home
     },
@@ -245,7 +257,7 @@ const router = createRouter({
     /*
     
     {
-      path: '/canais-de-comunicacao',
+      path: '/pagina-canais-de-comunicacao',
       name: 'CanaisDeComunicacao',
       component: CanaisDeComunicacao
     }*/

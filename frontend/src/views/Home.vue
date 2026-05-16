@@ -2,8 +2,7 @@
   <section class="home-container">
     <header class="header-azul">
       <div class="logo-area">
-        <h1 class="logo-texto">CIBER</h1>
-        <p class="logo-subtexto">GUARDIÃ🌍</p>
+        <img src="@/assets/logo-fundo-branco-lupa.png" class="logo-imagem"/>
       </div>
     </header>
 
@@ -11,23 +10,23 @@
       <h2 class="boas-vindas">Seja bem-vindo(a)!</h2>
 
       <div class="grade-botoes">
-        <button @click="$router.push('/tipos-de-ataques')" class="card-botao">
-          <img src="@/assets/tipos-de-ataques.png" alt="Tipos de Ataques" class="img-botao">
+
+        <button @click="$router.push('/tipos-de-ataques')" class="btn-menu">
+          CONHEÇA OS TIPOS DE ATAQUES
         </button>
 
-        <button @click="$router.push('/pagina-como-me-proteger')"  class="card-botao">
-          <img src="@/assets/como-me-proteger.png" alt="Como me proteger" class="img-botao">
+        <button @click="$router.push('/pagina-como-me-proteger')" class="btn-menu">
+          COMO ME PROTEGER
         </button>
 
-        <button @click="$router.push('/pagina-boas-praticas')" class="card-botao">
-          <img src="@/assets/boas-praticas.png" alt="Boas Práticas" class="img-botao">
+        <button @click="$router.push('/pagina-boas-praticas')" class="btn-menu">
+          BOAS PRÁTICAS
         </button>
 
-        <button @click="$router.push('/canais-de-comunicacao')" class="card-botao">
-          <img src="@/assets/canais-de-comunicacao.png" alt="Canais de Comunicação" class="img-botao">
+        <button @click="$router.push('/canais-de-comunicacao')" class="btn-menu">
+          CANAIS DE COMUNICAÇÃO
         </button>
       </div>
-      
     </div>
   </section>
 </template>
@@ -45,37 +44,40 @@
 
 .boas-vindas {
   font-size: 25px;
-  color: #333;
+  color: #1d1d1d;
   margin-bottom: 25px;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /*open sans light*/
 }
 
 /* Grade de Botões */
 .grade-botoes {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
   width: 100%;
-  max-width: 330px;
+  max-width: 350px; 
 }
 
-.card-botao {
-  background: none;
+.btn-menu {
+  background-color: #0e3469;
+  color: white;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 18px; 
+  letter-spacing: 0.5px;
+  width: 100%;
+  height: 94px;
+  padding: 24px 15px;
   border: none;
-  padding: 0;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(14, 52, 105, 0.25);
   cursor: pointer;
+  transition: transform 0.1s, background-color 0.2s;
 }
 
-.card-botao:active {
-  transform: scale(0.96); /* Efeito de clique */
-}
-
-.img-botao {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: all 0.4s;
+/* Feedback visual ao clicar */
+.btn-menu:active {
+  transform: scale(0.96); 
+  background-color: #0a254c;
 }
 </style>

@@ -10,7 +10,8 @@
     "lint": "run-s lint:*",
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
-    "format": "prettier --write --experimental-cli src/"
+    "format": "prettier --write --experimental-cli src/",
+    "build:apk": "npm run build && npx cap copy android && cd android && gradlew assembleDebug"
   },
   "dependencies": {
     "@capacitor/android": "^8.3.1",

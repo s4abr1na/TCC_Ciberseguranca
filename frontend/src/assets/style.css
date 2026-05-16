@@ -11,20 +11,12 @@
   background-color: #0d2646;
   padding: 30px 10px;
   text-align: center;
-  color: white;
-}
-.logo-texto { 
-  font-size: 32px; 
-  letter-spacing: 4px; 
-  margin: 0; 
-  font-weight: 900; 
 }
 
-.logo-subtexto { 
-  font-size: 18px; 
-  letter-spacing: 6px; 
-  margin: 0; 
-  font-weight: 300; 
+.logo-imagem{
+  width: 200px;
+  height: 70px;
+  align-self: flex-start;
 }
 
 /* Conteúdo Principal */
@@ -52,16 +44,30 @@
   margin-bottom: 10px;
   width: 100%;
   justify-content: center;
+  align-self: flex-start;
+}
+
+.icone-menu-navegacao {
+  width: 24px;
+  height: 24px;
 }
 
 .btn-voltar {
   background: none;
   border: none;
-  font-size: 35px;
   cursor: pointer;
-  color: #333;
-  padding: 0;
-  margin-right: 15px;
+  padding: 12px;
+  position: absolute;
+  left: 60px;
+  /* Estilo visual da seta */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone-voltar{
+  width: 45px;
+  height: 45px;
 }
 
 .titulo-sessao {
@@ -142,8 +148,10 @@
   padding: 5px;
 }
 
-.nav-texto { font-size: 12px; font-weight: 400; }
-
+.nav-texto { 
+  font-size: 12px; 
+  font-weight: 400; 
+}
 
 /*VÍDEO*/
 .modal-overlay {
