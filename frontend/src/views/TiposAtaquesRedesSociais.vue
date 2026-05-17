@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Redes Sociais</h3>
+        <p class="subtitulo-tema">Redes Sociais</p>
         
         <p class="texto-descricao">
             As redes sociais são ferramentas poderosas que conectam pessoas ao redor do mundo. No entanto, elas também podem ser exploradas por criminosos para cometer fraudes e ataques. Golpistas frequentemente criam perfis falsos, enviam mensagens enganosas e compartilham links maliciosos para roubar informações pessoais e financeiras.

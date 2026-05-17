@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Adote Boas Práticas</h2>
+        Adote Boas Práticas
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Boatos</h3>
+        <p class="subtitulo-tema">Boatos</p>
         
         <p class="texto-descricao">
           Boatos são informações não comprovadas que circulam na internet e podem ser usadas para manipular a opinião pública ou causar pânico. É importante verificar a veracidade das informações antes de compartilhá-las.

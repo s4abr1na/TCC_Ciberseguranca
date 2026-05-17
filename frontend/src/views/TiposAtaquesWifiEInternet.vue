@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Wi-Fi e Internet</h3>
+        <p class="subtitulo-tema">Wi-Fi e Internet</p>
         
         <p class="texto-descricao">
             O uso de Wi-Fi e internet é uma parte essencial da vida moderna, mas também pode expor seus dados a riscos. Redes Wi-Fi públicas, por exemplo, podem ser usadas por criminosos para interceptar informações sensíveis.

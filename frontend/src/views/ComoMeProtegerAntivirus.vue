@@ -14,7 +14,7 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Saiba Como se Proteger</h2>
+        Saiba Como se Proteger
       </div>
 
         <p class="texto-descricao">
@@ -28,7 +28,6 @@
             <strong>Sugestão para download:</strong>
         </p>
     </main>
-
 
     <!--menu navegação-->
     <footer class="menu-inferior">

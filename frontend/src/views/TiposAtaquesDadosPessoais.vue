@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Dados Pessoais</h3>
+        <p class="subtitulo-tema">Dados Pessoais</p>
         
         <p class="texto-descricao">
             Os dados pessoais são informações que identificam você e podem ser usadas por criminosos para cometer fraudes. É importante proteger esses dados, pois podem ser usados para roubar sua identidade, acessar suas contas ou cometer outros tipos de crimes.

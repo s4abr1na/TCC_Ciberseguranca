@@ -14,7 +14,7 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Saiba Como se Proteger</h2>
+        Saiba Como se Proteger
       </div>
 
       <p class="texto-descricao">
@@ -23,9 +23,8 @@
         <br><br>
         <strong>Como funciona?</strong><br>
         texto aqui
-      <br><br>
-
-            <strong>Sugestão para download:</strong>
+        <br><br>
+        <strong>Sugestão para download:</strong>
         </p>
     
     </main>

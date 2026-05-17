@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Aplicativos Financeiros</h3>
+        <p class="subtitulo-tema">Aplicativos Financeiros</p>
         
         <p class="texto-descricao">
             Os aplicativos financeiros, como os de bancos e pagamentos, facilitam muito a vida no dia a dia. Com eles, é possível pagar contas, fazer transferências e acompanhar seu dinheiro sem sair de casa. Porém, justamente por lidarem com informações importantes, eles também podem ser alvo de golpes e ataques virtuais.

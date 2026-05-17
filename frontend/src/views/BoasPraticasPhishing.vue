@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Adote Boas Práticas</h2>
+        Adote Boas Práticas
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Phishing e Outros Golpes</h3>
+        <p class="subtitulo-tema">Phishing e Outros Golpes</p>
         
         <p class="texto-descricao">
           Backup é o Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidente ut labore et dolore magna aliqua. Ut enim ad minim veniam.

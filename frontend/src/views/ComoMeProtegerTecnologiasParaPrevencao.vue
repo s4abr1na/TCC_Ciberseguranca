@@ -14,7 +14,7 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Saiba Como se Proteger</h2>
+        Saiba Como se Proteger
       </div>
 
         <div class="grade-botoes">
@@ -64,23 +64,5 @@
 </template>
 
 <style>
-
-.btn-video1, .btn-video2 {
-  margin-bottom: 30px;
-  background-color: #163B70;
-  color: white;
-  height: 150px;
-  width: 100%;
-  max-width: 320px;
-  padding: 45px;
-  border: none;
-  border-radius: 7px;
-  font-size: 23px;
-  cursor: pointer;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  display: block;
-  margin: 20px auto;
-}
-
     @import '@/assets/style.css'
 </style>

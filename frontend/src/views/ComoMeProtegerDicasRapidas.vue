@@ -12,7 +12,7 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Saiba Como se Proteger</h2>
+        Saiba Como se Proteger
       </div>
 
       <!-- Carrossel -->

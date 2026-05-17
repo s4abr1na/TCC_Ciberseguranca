@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Vazamento de Dados</h3>
+        <p class="subtitulo-tema">Vazamento de Dados</p>
         
         <p class="texto-descricao">
             Um vazamento de dados ocorre quando informações pessoais ou confidenciais são expostas sem autorização. Isso pode acontecer devido a falhas de segurança, ataques cibernéticos ou erros humanos. 

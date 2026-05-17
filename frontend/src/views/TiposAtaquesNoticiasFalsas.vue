@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Notícias Falsas</h3>
+        <p class="subtitulo-tema">Notícias Falsas</p>
         
         <p class="texto-descricao">
             As notícias falsas são uma das formas mais comuns de manipulação da informação em ambientes digitais. Elas podem ser disseminadas por meio de redes sociais, e-mails ou sites maliciosos, com o objetivo de enganar e influenciar a opinião pública.

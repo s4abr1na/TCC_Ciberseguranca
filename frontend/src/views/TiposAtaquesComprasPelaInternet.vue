@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Compras pela Internet</h3>
+        <p class="subtitulo-tema">Compras pela Internet</p>
         
         <p class="texto-descricao">
             As compras online têm se tornado cada vez mais comuns, oferecendo conveniência e variedade. No entanto, é importante estar atento aos riscos associados a essas transações. Golpes e fraudes podem ocorrer quando você não toma as devidas precauções.

@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Senhas e Acessos</h3>
+        <p class="subtitulo-tema">Senhas e Acessos</p>
         
         <p class="texto-descricao">
           Suas senhas são a identidade digital. Se alguém as possui, essa pessoa se torna "você" perante o sistema. Para se proteger sem complicações, foque em três pilares:

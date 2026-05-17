@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Segurança no Seu Aparelho</h3>
+        <p class="subtitulo-tema">Segurança no Seu Aparelho</p>
         
         <p class="texto-descricao">
             A segurança do seu aparelho é fundamental para proteger suas informações e dados pessoais. Um celular ou tablet bem protegido pode evitar perdas significativas e manter sua privacidade.

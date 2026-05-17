@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Trabalho Remoto</h3>
+        <p class="subtitulo-tema">Trabalho Remoto</p>
         
         <p class="texto-descricao">
             O trabalho remoto tem se tornado cada vez mais comum, mas também apresenta riscos de segurança. É importante manter uma rede segura e usar ferramentas confiáveis para proteger suas informações.

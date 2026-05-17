@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Vírus e Aplicativos Maliciosos</h3>
+        <p class="subtitulo-tema">Vírus e Aplicativos Maliciosos</p>
         
         <p class="texto-descricao">
             Os vírus e aplicativos maliciosos são programas que se infiltram em seu dispositivo sem seu conhecimento, podendo causar danos significativos aos seus dados e à segurança do sistema. Eles podem ser transmitidos por e-mails, links suspeitos, downloads não confiáveis ou até mesmo por meio de dispositivos conectados.

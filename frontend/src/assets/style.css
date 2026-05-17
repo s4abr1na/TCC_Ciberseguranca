@@ -1,12 +1,181 @@
-.pagina-copia-de-seguranca {
-  background-color: #f9f9f9;
-  min-height: 100vh;
+/*SPLASHSCREEN*/
+.splash {
+  background-color: #102c62;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-area {
   display: flex;
   flex-direction: column;
-  padding-bottom: 40px; /* Espaço para o menu inferior não cobrir o conteúdo */
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  align-items: center;
 }
 
+.logo-img {
+  width: 350px;
+  height: auto;
+  margin-bottom: -30px
+}
+
+.logo-globo-img{
+  width: 400px;
+  height: auto;
+}
+
+.splash {
+  background-color: #0a2351;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slideOut 0.3s ease 2.7s forwards;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*PAGINA-ONBOARGING*/
+.onboarding {
+  background-color: #0a2351;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.quadro {
+  background-color: white;
+  padding: 30px;
+  border-radius: 24px;
+  height: 540px;
+  width: 70%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.logo-img3 {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/*Carrossel */
+.carrossel-onboarding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.carrossel-btn {
+  background: none;
+  border: none;
+  font-size: 35px;
+  color: #0e3469;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.carrossel-card {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.texto-onboarding {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  font-weight: 400;
+  background: none;
+}
+
+/*Pontinhos*/
+.carrossel-indicadores {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.ponto {
+  width: 12px;
+  height: 12px;
+  background-color: #AAA;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ponto.ativo {
+  background-color: #0e3469;
+  width: 24px;
+  border-radius: 6px;
+}
+
+.acao-onboarding {
+  height: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-pular {
+  background: none;
+  border: none;
+  color: #666666; 
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: color 0.2s;
+}
+
+.botao-pular:active {
+  color: #0e3469;
+}
+
+.btn-começar {
+  background-color: #0e3469;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(14, 52, 105, 0.2);
+  transition: transform 0.1s;
+}
+
+.btn-começar:active {
+  transform: scale(0.95);
+}
+
+/* Transição de Fade */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*PÁGINAS DO SISTEMA*/
 .header-azul {
   background-color: #0d2646;
   padding: 30px 10px;
@@ -19,23 +188,80 @@
   align-self: flex-start;
 }
 
+.btn-voltar {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  position: absolute;
+  left: 50px;
+  display: flex;
+  top: 130px
+}
+
+.icone-voltar{
+  width: 45px;
+  height: 45px;
+}
+
 /* Conteúdo Principal */
-.conteudo {
+.titulo-pagina {
+  font-size: 25px;
+  color: #1d1d1d;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.titulo-boas-vindas {
+  font-size: 25px;
+  color: #1d1d1d;
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /*open sans light*/
+}
+
+.grade-botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 350px; 
+}
+
+.content {
   padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Título e Voltar */
-.titulo-pagina {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+.btn-menu {
+  background-color: #0e3469;
+  color: white;
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 20px; 
+  letter-spacing: 0.5px;
   width: 100%;
-  max-width: 350px;
+  height: 94px;
+  padding: 24px 15px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(14, 52, 105, 0.25);
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.2s;
+}
+
+.btn-menu:active {
+  transform: scale(0.96); 
+  background-color: #0a254c;
+}
+
+.conteudo {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
-  justify-content: center; /* Centraliza o conjunto */
 }
 
 .navegacao-topo {
@@ -52,37 +278,10 @@
   height: 24px;
 }
 
-.btn-voltar {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 12px;
-  position: absolute;
-  left: 60px;
-  /* Estilo visual da seta */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icone-voltar{
-  width: 45px;
-  height: 45px;
-}
-
-.titulo-sessao {
-  font-size: 24px;
-  color: #333;
-  margin: 0;
-  font-weight: 400;
-  text-align: center;
-}
-
 .subtitulo-tema {
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   color: #000;
-  margin-bottom: 10px;
   text-align: center; 
 }
 
@@ -102,6 +301,117 @@
   text-align: left;
 }
 
+/* Lista de Itens (Menu) */
+.lista-ataques {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.item-ataque {
+  background: none;
+  border: none;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  text-align: left;
+  width: 100%;
+}
+.item-ataque:hover, .item-ataque:active {
+  background-color: #eaeaea; 
+}
+.item-ataque .icone {
+  font-size: 30px;
+  width: 50px; 
+  text-align: center;
+}
+.item-ataque .texto {
+  font-size: 21px;
+  color: #333;
+  font-weight: 400;
+  flex: 1;
+}
+
+/* Lista de Itens (Menu) */
+.lista-boas-praticas {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.item-boas-praticas {
+  background: none;
+  border: none;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  text-align: left;
+  width: 100%;
+}
+.item-boas-praticas:hover, .item-boas-praticas:active {
+  background-color: #eaeaea; /* Efeito visual de clique */
+}
+
+.item-boas-praticas .texto {
+  font-size: 21px; 
+  color: #333;
+  font-weight: 400;
+  flex: 1; 
+}
+
+/* Grade de Botões - Como se proteger*/
+.btn-dicas-rapidas, .btn-tecnologias {
+  height: 170px;
+  width: 100%;
+  max-width: 320px;
+  border: none;
+  border-radius: 7px;
+  font-size: 23px;
+  cursor: pointer;
+  display: block;
+  margin: 5px auto;
+  color: white;
+}
+
+.btn-dicas-rapidas{
+  background-color: #60A1B3;
+}
+
+.btn-tecnologias{
+  background-color: #648D32;
+}
+
+.btn-video1, .btn-video2 {
+  background-color: #163B70;
+  color: white;
+  height: 110px;
+  width: 100%;
+  max-width: 320px;
+  border: none;
+  border-radius: 7px;
+  font-size: 23px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  display: block;
+}
+
+.card-botao:active {
+  transform: scale(0.96); /* Efeito de clique */
+}
+
 /* Botão de Vídeo */
 .btn-video-destaque, .btn-cartilha, .btn-podcast {
   background-color: #2e5a97;
@@ -116,7 +426,11 @@
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   display: block;
-  margin: 20px auto;
+  margin: 15px auto;
+}
+
+.btn-podcast{
+  margin-bottom: 30px;
 }
 
 /* Menu Inferior */

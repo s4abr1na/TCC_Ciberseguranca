@@ -14,11 +14,11 @@
         </button>
         
         <div class="titulo-pagina">
-          <h2 class="titulo-sessao">Adote Boas Práticas</h2>
+          Adote Boas Práticas
         </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Autenticação</h3>
+        <p class="subtitulo-tema">Autenticação</p>
         
         <p class="texto-descricao">
         Autenticação é o processo de confirmar a identidade de um usuário ou sistema antes de permitir acesso a recursos. 

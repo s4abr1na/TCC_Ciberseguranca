@@ -13,11 +13,11 @@
         </button>
         
       <div class="titulo-pagina">
-        <h2>Conheça os Tipos de Ataques</h2>
+        Conheça os Tipos de Ataques
       </div>
 
       <section class="info-ataque">
-        <h3 class="subtitulo-tema">Cópia de Segurança</h3>
+        <p class="subtitulo-tema">Cópia de Segurança</p>
         
         <p class="texto-descricao">
             Fazer cópias de segurança, também chamadas de “backup”, é uma das formas mais simples e importantes de se proteger no mundo digital. Imagine perder fotos de família, contatos ou documentos importantes por causa de um vírus ou golpe — isso acontece com mais frequência do que parece. Muitos ataques virtuais, como o sequestro de dados (quando criminosos bloqueiam seus arquivos e pedem dinheiro), podem causar grandes prejuízos, principalmente para quem não tem uma cópia guardada.<br>
