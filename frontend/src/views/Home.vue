@@ -11,19 +11,19 @@
 
       <div class="grade-botoes">
 
-        <button @click="$router.push('/tipos-de-ataques')" class="btn-menu">
+        <button @click="$router.push('/tipos-de-ataques')" class="btn-menu1">
           Conheça os Tipos de Ataques
         </button>
 
-        <button @click="$router.push('/pagina-como-me-proteger')" class="btn-menu">
+        <button @click="$router.push('/pagina-como-me-proteger')" class="btn-menu2">
           Saiba Como se Proteger
         </button>
 
-        <button @click="$router.push('/pagina-boas-praticas')" class="btn-menu">
+        <button @click="$router.push('/pagina-boas-praticas')" class="btn-menu3">
           Adote Boas Práticas
         </button>
 
-        <button @click="$router.push('/canais-de-comunicacao')" class="btn-menu">
+        <button @click="$router.push('/canais-de-comunicacao')" class="btn-menu4">
           Canais para Relatar Ataque
         </button>
       </div>

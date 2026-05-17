@@ -188,15 +188,19 @@
   align-self: flex-start;
 }
 
+.conteudo{
+  position: relative;
+}
+
 .btn-voltar {
   background: none;
   border: none;
   cursor: pointer;
   padding: 12px;
   position: absolute;
-  left: 50px;
+  left: 10px;
+  top: 1px;  
   display: flex;
-  top: 130px
 }
 
 .icone-voltar{
@@ -235,14 +239,14 @@
   align-items: center;
 }
 
-.btn-menu {
+.btn-menu1, .btn-menu2, .btn-menu3, .btn-menu4 {
   background-color: #0e3469;
   color: white;
   font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
   font-size: 20px; 
   letter-spacing: 0.5px;
   width: 100%;
-  height: 94px;
+  height: 100px;
   padding: 24px 15px;
   border: none;
   border-radius: 7px;
@@ -251,9 +255,25 @@
   transition: transform 0.1s, background-color 0.2s;
 }
 
-.btn-menu:active {
+.btn-menu1:active, .btn-menu2:active, .btn-menu3:active, .btn-menu4:active {
   transform: scale(0.96); 
   background-color: #0a254c;
+}
+
+.btn-menu1{
+  background-color: #0a254c;
+}
+
+.btn-menu2{
+  background-color: #1b3e6f;
+}
+
+.btn-menu3{
+  background-color: #087b16;
+}
+
+.btn-menu4{
+  background-color: #013801;
 }
 
 .conteudo {
