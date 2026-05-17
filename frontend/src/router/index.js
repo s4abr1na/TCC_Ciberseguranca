@@ -46,8 +46,8 @@ import BoasPraticasRedesSociais from '@/views/BoasPraticasRedesSociais.vue'
 import BoasPraticasTrabalhoRemoto from '@/views/BoasPraticasTrabalhoRemoto.vue'
 import BoasPraticasVazamentoDeDados from '@/views/BoasPraticasVazamentoDeDados.vue'
 
-
-//import CanaisDeComunicacao from '../views/CanaisDeComunicacao.vue'
+//BOTÃO: "CANAIS DE COMUNICAÇÃO"
+import Canais from '../views/Canais.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -253,14 +253,14 @@ const router = createRouter({
       path: '/boas-praticas-pagina-vazamento-de-dados',
       name: 'BoasPraticasVazamentoDeDados',
       component: BoasPraticasVazamentoDeDados
-    }
-    /*
+    },
     
+    //BOTÃO: "CANAIS DE COMUNICAÇÃO"    
     {
       path: '/pagina-canais-de-comunicacao',
-      name: 'CanaisDeComunicacao',
-      component: CanaisDeComunicacao
-    }*/
+      name: 'Canais',
+      component: Canais
+    }
   ],
 })
 

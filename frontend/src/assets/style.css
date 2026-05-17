@@ -52,7 +52,7 @@
   padding: 30px;
   border-radius: 24px;
   height: 540px;
-  width: 70%;
+  width: 65%;
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
@@ -220,6 +220,7 @@
   font-size: 25px;
   color: #1d1d1d;
   margin-bottom: 25px;
+  margin-top:0.1rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; /*open sans light*/
 }
@@ -306,7 +307,7 @@
 }
 
 .texto-descricao {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.5;
   color: #333;
   margin-bottom: 40px;
@@ -436,13 +437,13 @@
 .btn-video-destaque, .btn-cartilha, .btn-podcast {
   background-color: #2e5a97;
   color: white;
+  height: 90px;
   width: 100%;
-  max-width: 320px;
-  padding: 45px;
+  max-width: 300px;
+  padding: 15px;
   border: none;
   border-radius: 12px;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 21px;
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
   display: block;
@@ -520,4 +521,49 @@
   border: none;
   font-size: 1.4rem;
   cursor: pointer;
+}
+
+
+/* Botão do acordeão: CANAIS*/
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  background-color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Seta apontando para baixo por padrão */
+.accordion-button::after {
+  content: '▼';
+  font-size: 0.80rem;
+  transition: transform 0.2s;
+}
+
+/* Seta vira para cima quando aberto */
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg);
+}
+
+/* Estilo quando fechado */
+.accordion-button.collapsed {
+  background-color: #fff;
+}
+
+/* Corpo do acordeão */
+.accordion-item {
+  border: 1px solid #dee2e6;
+  margin-bottom: 5px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px rgba(204, 204, 204, 0.5);
+}
+
+.accordion-body {
+  padding: 1rem;
+  background-color: #fff;
 }
