@@ -43,20 +43,24 @@
       </ul>
     </nav>
 
+    <button @click="$router.push('/ciber-agente')" class="btn-agente-flutuante">
+      Pergunte aqui
+    </button>
+
     <div class="content">
       <p class="titulo-boas-vindas">Seja bem-vindo(a)!</p>
       <div class="grade-botoes">
         <button @click="$router.push('/tipos-de-ataques')" class="btn-menu1">
-          Conheça os Tipos de Ataques
+          Conheça os tipos de ataques
         </button>
         <button @click="$router.push('/pagina-como-me-proteger')" class="btn-menu2">
-          Saiba Como se Proteger
+          Saiba como se proteger
         </button>
         <button @click="$router.push('/pagina-boas-praticas')" class="btn-menu3">
-          Adote Boas Práticas
+          Adote boas práticas
         </button>
         <button @click="$router.push('/pagina-canais-de-comunicacao')" class="btn-menu4">
-          Canais para Relatar Ataque
+          Canais para relatar ataque
         </button>
       </div>
     </div>
@@ -169,5 +173,20 @@ export default {
   cursor: default;
   border-bottom: 1px solid #eee;
   padding: 0.5rem 0 1rem 0;
+}
+
+.btn-agente-flutuante {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  background-color: #6d8eba;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 99;
 }
 </style>

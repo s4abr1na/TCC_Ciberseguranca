@@ -1,0 +1,28 @@
+{
+  "name": "tcc_ciberseguranca",
+  "version": "1.0.0",
+  "description": "Um projeto focado em cibersegurança e proteção digital para o público idoso.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s4abr1na/TCC_Ciberseguranca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/s4abr1na/TCC_Ciberseguranca/issues"
+  },
+  "homepage": "https://github.com/s4abr1na/TCC_Ciberseguranca#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.97.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}

@@ -66,7 +66,6 @@
   </div>
 </template>
 
-
 <!--ESTILIZAÇÃO-->
 <style>
   @import '@/assets/style.css'

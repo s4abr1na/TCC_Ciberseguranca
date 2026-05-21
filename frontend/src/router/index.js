@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import SplashScreen from '@/views/SplashScreen.vue'
 import PaginaOnboarding from '@/views/Pagina-Onboarding.vue'
 import Home from '../views/Home.vue'
+import PaginaAgente from '../views/PaginaAgente.vue'
 
 
 //BOTÃO: "TIPOS DE ATAQUES"
@@ -52,6 +53,11 @@ import Canais from '../views/Canais.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    {
+      path: '/ciber-agente',
+      name: 'PaginaAgente',
+      component: PaginaAgente
+    },
     {
       path: '/', 
       component: SplashScreen,
