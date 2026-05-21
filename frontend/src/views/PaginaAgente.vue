@@ -98,7 +98,7 @@ export default {
 
       try {
         //http://localhost:3000/chat
-        const response = await fetch('tccciberseguranca-production.up.railway.app', {
+        const response = await fetch('https://tccciberseguranca-production.up.railway.app/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ pergunta: perguntaAtual })
