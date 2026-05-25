@@ -39,7 +39,9 @@ import BoasPraticasCodigosMaliciosos from '@/views/BoasPraticasCodigosMaliciosos
 import BoasPraticasComercioViaInternet from '@/views/BoasPraticasComercioViaInternet.vue'
 import BoasPraticasComputadores from '@/views/BoasPraticasComputadores.vue'
 import BoasPraticasFurtoDeCelulares from '@/views/BoasPraticasFurtoDeCelulares.vue'
-import BoasPraticasPhishing from '@/views/BoasPraticasPhishing.vue'
+import BoasPraticasGolpesCaiuVejaOQueFazer from '@/views/BoasPraticasGolpesCaiuVejaOQueFazer.vue'
+import BoasPraticasGolpesEviteFraudes from '@/views/BoasPraticasGolpesEviteFraudes.vue'
+import BoasPraticasGolpesNaoSeDeixeEnganar from '@/views/BoasPraticasGolpesNaoSeDeixeEnganar.vue'
 import BoasPraticasPrivacidade from '@/views/BoasPraticasPrivacidade.vue'
 import BoasPraticasProtecaoDeDados from '@/views/BoasPraticasProtecaoDeDados.vue'
 import BoasPraticasRedes from '@/views/BoasPraticasRedes.vue'
@@ -226,9 +228,19 @@ const router = createRouter({
       component: BoasPraticasFurtoDeCelulares
     },
     {
-      path: '/boas-praticas-pagina-phishing',
-      name: 'BoasPraticasPhishing',
-      component: BoasPraticasPhishing
+      path: '/boas-praticas-pagina-golpes-caiu-veja-o-que-fazer',
+      name: 'BoasPraticasGolpesCaiuVejaOQueFazer',
+      component: BoasPraticasGolpesCaiuVejaOQueFazer
+    },
+    {
+      path: '/boas-praticas-pagina-golpes-evite-fraudes',
+      name: 'BoasPraticasGolpesEviteFraudes',
+      component: BoasPraticasGolpesEviteFraudes
+    },
+    {
+      path: '/boas-praticas-pagina-golpes-nao-se-deixe-enganar',
+      name: 'BoasPraticasGolpesNaoSeDeixeEnganar',
+      component: BoasPraticasGolpesNaoSeDeixeEnganar
     },
     {
       path: '/boas-praticas-pagina-privacidade',

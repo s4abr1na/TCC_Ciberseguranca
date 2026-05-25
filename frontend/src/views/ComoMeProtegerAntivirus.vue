@@ -1,10 +1,6 @@
 <template>
   <div class="como-me-proteger-pagina-antivirus">
-    <header class="header-azul">
-      <div class="logo-area">
-        <img src="@/assets/logo-fundo-branco-lupa.png" class="logo-imagem"/>
-      </div>
-    </header>
+    <AppHeader />
 
     <!-- Conteúdo-->
     <main class="conteudo">
@@ -29,35 +25,23 @@
         </p>
     </main>
 
-    <!--menu navegação-->
-    <footer class="menu-inferior">
-      <button @click="$router.push('/home')" class="nav-item">
-        <img src="@/assets/icone-home-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Início</span>
-      </button>
+    <AppFooterProtecao />
 
-      <button @click="$router.push('/tipos-de-ataques')" class="nav-item">
-        <img src="@/assets/icone-ataques-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Ataques</span>
-      </button>
-
-      <button @click="$router.push('/pagina-como-me-proteger')" class="nav-item">
-        <img src="@/assets/icone-protecao-preenchido.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Proteção</span>
-      </button>
-
-      <button @click="$router.push('/pagina-boas-praticas')" class="nav-item">
-        <img src="@/assets/icone-boas-praticas-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Boas práticas</span>
-      </button>
-
-      <button @click="$router.push('/pagina-canais-de-comunicacao')" class="nav-item">
-        <img src="@/assets/icone-canais-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Canais</span>
-      </button>
-    </footer>
    </div>
 </template>
+
+<script>
+import AppHeader from "@/components/AppHeader.vue";
+import AppFooterProtecao from "@/components/AppFooterProtecao.vue";
+
+export default {
+  name: "ComoMeProteger",
+  components: {
+    AppHeader,
+    AppFooterProtecao
+  }
+};
+</script>
 
 <style>
     @import '@/assets/style.css'

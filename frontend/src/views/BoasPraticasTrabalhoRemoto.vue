@@ -1,10 +1,6 @@
 <template>
-  <div class="boas-praticas-pagina-trabalho-remoto">
-    <header class="header-azul">
-      <div class="logo-area">
-        <img src="@/assets/logo-fundo-branco-lupa.png" class="logo-imagem"/>
-      </div>
-    </header>
+  <div class="boas-praticas-pagina-backup">
+    <AppHeader />
 
    <!--Conteúdo principal-->
     <main class="conteudo">
@@ -17,54 +13,99 @@
       </div>
 
       <section class="info-ataque">
-        <p class="subtitulo-tema">Trabalho Remoto</p>
+        <p class="subtitulo-tema">Trabalho remoto</p>
         
         <p class="texto-descricao">
           Backup é o Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidente ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
 
-        <button class="btn-cartilha">
-            Cartilha
+        <button class="btn-cartilha" @click="abrirModal('cartilha')">
+          Cartilha
         </button>
-        
-        <button class="btn-podcast">
-            Podcast
+
+        <button class="btn-podcast" @click="abrirModal('podcast')">
+          Podcast
         </button>
       </section>
     </main>
 
-          <!--menu navegação-->
-    <footer class="menu-inferior">
-      <button @click="$router.push('/home')" class="nav-item">
-        <img src="@/assets/icone-home-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Início</span>
-      </button>
+    <!-- Modal -->
+    <div v-if="modalAberto" class="modal-overlay" @click.self="fecharModal">
+      <div class="modal-container">
 
-      <button @click="$router.push('/tipos-de-ataques')" class="nav-item">
-        <img src="@/assets/icone-ataques-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Ataques</span>
-      </button>
+        <div class="modal-header">
+          <span class="modal-titulo">{{ tipoModal === 'podcast' ? 'Podcast' : 'Cartilha' }}</span>
+          <button class="btn-fechar" @click="fecharModal">✕</button>
+        </div>
 
-      <button @click="$router.push('/pagina-como-me-proteger')" class="nav-item">
-        <img src="@/assets/icone-protecao-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Proteção</span>
-      </button>
+        <!-- Podcast: abre dentro do app com iframe -->
+        <iframe
+          v-if="tipoModal === 'podcast'"
+          src="https://www.youtube.com/embed/o4enW8NP-JY?autoplay=1"
+          title="Podcast - Autenticação"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          class="modal-iframe"
+        />
 
-      <button @click="$router.push('/pagina-boas-praticas')" class="nav-item">
-        <img src="@/assets/icone-boas-praticas-preenchido.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Boas práticas</span>
-      </button>
+        <!-- Cartilha: abre PDF no navegador externo -->
+        <div v-else-if="tipoModal === 'cartilha'" class="modal-cartilha">
+          <p>A cartilha será aberta no seu navegador.</p>
+          <button class="btn-abrir-cartilha" @click="abrirCartilha">
+            Abrir Cartilha
+          </button>
+        </div>
 
-      <button @click="$router.push('/pagina-canais-de-comunicacao')" class="nav-item">
-        <img src="@/assets/icone-canais-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Canais</span>
-      </button>
-    </footer>
+      </div>
+    </div>
+
+    <AppFooterBoasPraticas />
+
   </div>
 </template>
 
+<script>
+import AppHeader from '@/components/AppHeader.vue'
+import AppFooterBoasPraticas from '@/components/AppFooterBoasPraticas.vue'
+import { Browser } from '@capacitor/browser'
 
-<!--ESTILIZAÇÃO-->
+export default {
+  name: 'BoasPraticasAutenticacao',
+
+  components: {
+    AppHeader,
+    AppFooterBoasPraticas
+  },
+
+  data() {
+    return {
+      modalAberto: false,
+      tipoModal: null
+    }
+  },
+
+  methods: {
+    abrirModal(tipo) {
+      this.tipoModal = tipo
+      this.modalAberto = true
+    },
+
+    fecharModal() {
+      this.modalAberto = false
+      this.tipoModal = null
+    },
+
+    async abrirCartilha() {
+      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/autenticacao/fasciculo-autenticacao.pdf' })
+      this.fecharModal()
+    }
+  }
+}
+</script>
+
+<!-- Estilo global -->
 <style>
-  @import '@/assets/style.css'
+  @import '@/assets/style.css';
 </style>

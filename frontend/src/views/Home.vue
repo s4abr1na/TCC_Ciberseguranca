@@ -15,15 +15,17 @@
     <nav class="menu-lateral" :class="{ 'aberto': menuAberto }">
       <button class="btn-fechar" @click="menuAberto = false">✕</button>
       <ul>
-        <li @click="$router.push('/pagina-onboarding'); menuAberto = false">Página Inicial</li>
+        <li @click="$router.push('/pagina-onboarding'); menuAberto = false">Página inicial</li>
         
         <li @click="sobreAberto = !sobreAberto" class="li-sobre">
-          Sobre o Projeto
+          Sobre o projeto
           <span>{{ sobreAberto ? '▲' : '▼' }}</span>
         </li>
 
         <li v-if="sobreAberto" class="li-texto-sobre">
-          Aplicativo mobile voltado à prevenção de ataques cibernéticos contra pessoas idosas, com conteúdos educativos e recomendações práticas de segurança, como uso de VPN, antivírus e firewall.
+          Aplicativo mobile voltado à prevenção de ataques cibernéticos contra pessoas idosas, com conteúdos educativos e recomendações práticas de segurança.
+          <br>
+          O aplicativo é dividido em quatro seções principais: "Conheça os tipos de ataques", "Saiba como se proteger", "Adote boas práticas", "Canais para relatar ataque".
           <br>
           Objetivo: instruir o idoso em navegação segura no ciberespaço.
         </li>
@@ -34,21 +36,27 @@
         </li>
 
         <li v-if="conteudo" class="li-texto-sobre">
-          O aplicativo é dividido em quatro seções principais: Tipos de Ataques, Como se Proteger, Boas Práticas e Canais de Comunicação. Cada seção oferece informações detalhadas e recursos para ajudar os usuários a entender melhor as ameaças cibernéticas e como se proteger contra elas.
-          <br>
           Os materiais de apoio incluem cartilhas do Cert.br e conteúdos de áudio e vídeo gerados pela IA Notebook LM.
         </li>
 
-        <li><strong>Info. do Projeto</strong><br><br>Ciberguardião: Um Sistema Mobile Para Prevenção de Ataques Cibernéticos contra Pessoas Idosas. <br><br>Aluna: Sabrina de Oliveira Souza<br>Orientadora: Cristiane Jorge Bonfim</li>
+        <li>
+          Instituto Federal de Educação, Ciência e Tecnologia de Brasília
+          <br><br>
+          Ciberguardião: Um Sistema Mobile Para Prevenção de Ataques Cibernéticos contra Pessoas Idosas. 
+          <br><br>
+          Estudante: Sabrina de Oliveira Souza
+          <br>
+          Orientadora: Prof.ª Dr.ª Cristiane Jorge de Lima Bonfim
+        </li>
       </ul>
     </nav>
 
     <button @click="$router.push('/ciber-agente')" class="btn-agente-flutuante">
-      Pergunte aqui
+      <img src="@/assets/img-agente.png" class="img-agente"/>
     </button>
 
     <div class="content">
-      <p class="titulo-boas-vindas">Seja bem-vindo(a)!</p>
+      <p class="titulo-boas-vindas">Conhecimento é sua melhor defesa!</p>
       <div class="grade-botoes">
         <button @click="$router.push('/tipos-de-ataques')" class="btn-menu1">
           Conheça os tipos de ataques
@@ -179,7 +187,7 @@ export default {
   position: absolute;
   bottom: 5px;
   right: 20px;
-  background-color: #6d8eba;
+  background-color: #11284b;
   color: white;
   border: none;
   padding: 14px 20px;
@@ -189,4 +197,9 @@ export default {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   z-index: 99;
 }
+
+.img-agente {
+  width: 50px;
+  height: 50px;
+} 
 </style>

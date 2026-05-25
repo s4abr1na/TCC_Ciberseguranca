@@ -13,7 +13,7 @@
       </div>
 
       <section class="info-ataque">
-        <p class="subtitulo-tema">Redes</p>
+        <p class="subtitulo-tema">Golpes: Evite fraudes</p>
         
         <p class="texto-descricao">
           Backup é o Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidente ut labore et dolore magna aliqua. Ut enim ad minim veniam.

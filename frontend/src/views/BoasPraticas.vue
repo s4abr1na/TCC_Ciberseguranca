@@ -25,7 +25,7 @@
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-banco-via-internet')">
-          <span class="texto">Banco via Internet</span>
+          <span class="texto">Banco via internet</span>
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-boatos')">
@@ -33,15 +33,15 @@
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-celulares-tablets')">
-          <span class="texto">Celulares e Tablets</span>
+          <span class="texto">Celulares e tablets</span>
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-codigos-maliciosos')">
-          <span class="texto">Códigos Maliciosos</span>
+          <span class="texto">Códigos maliciosos</span>
         </button>
         
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-comercio-via-internet')"> 
-          <span class="texto">Comércio via Internet</span>
+          <span class="texto">Comércio via internet</span>
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-computadores')"> 
@@ -49,11 +49,19 @@
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-furto-de-celulares')"> 
-          <span class="texto">Furto de Celular</span>
+          <span class="texto">Furto de celulares</span>
         </button>
         
-        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-phishing')">
-          <span class="texto">Phishing e Outros Golpes</span>
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-golpes-caiu-veja-o-que-fazer')">
+          <span class="texto">Golpes: Caiu? Veja o que fazer</span>
+        </button>
+
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-golpes-evite-fraudes')">
+          <span class="texto">Golpes: Evite fraudes</span>
+        </button>
+
+        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-golpes-nao-se-deixe-enganar')">
+          <span class="texto">Golpes: Não se deixe enganar</span>
         </button>
         
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-privacidade')">
@@ -61,7 +69,7 @@
         </button>
         
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-protecao-de-dados')">
-          <span class="texto">Proteção de Dados</span>
+          <span class="texto">Proteção de dados</span>
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-redes')">
@@ -69,15 +77,15 @@
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-redes-sociais-boas-praticas')">
-          <span class="texto">Redes Sociais</span>
+          <span class="texto">Redes sociais</span>
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-trabalho-remoto')">
-          <span class="texto">Trabalho Remoto</span>
+          <span class="texto">Trabalho remoto</span>
         </button>
 
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-vazamento-de-dados')">
-          <span class="texto">Vazamento de Dados</span>
+          <span class="texto">Vazamento de dados</span>
         </button>
       </nav>
     </main>

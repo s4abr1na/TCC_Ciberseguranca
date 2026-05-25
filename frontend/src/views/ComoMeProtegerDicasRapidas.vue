@@ -1,10 +1,6 @@
 <template>
   <div class="como-me-proteger-pagina-dicas-rapidas">
-    <header class="header-azul">
-      <div class="logo-area">
-        <img src="@/assets/logo-fundo-branco-lupa.png" class="logo-imagem"/>
-      </div>
-    </header>
+    <AppHeader />
 
     <main class="conteudo">
       <button @click="$router.back()" class= "btn-voltar">
@@ -38,36 +34,12 @@
       </div>
     </main>
 
-    <footer class="menu-inferior">
-      <button @click="$router.push('/home')" class="nav-item">
-        <img src="@/assets/icone-home-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Início</span>
-      </button>
-
-      <button @click="$router.push('/tipos-de-ataques')" class="nav-item">
-        <img src="@/assets/icone-ataques-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Ataques</span>
-      </button>
-
-      <button @click="$router.push('/pagina-como-me-proteger')" class="nav-item">
-        <img src="@/assets/icone-protecao-preenchido.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Proteção</span>
-      </button>
-
-      <button @click="$router.push('/pagina-boas-praticas')" class="nav-item">
-        <img src="@/assets/icone-boas-praticas-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Boas práticas</span>
-      </button>
-
-      <button @click="$router.push('/pagina-canais-de-comunicacao')" class="nav-item">
-        <img src="@/assets/icone-canais-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Canais</span>
-      </button>
-    </footer>
+    <AppFooterProtecao />
   </div>
 </template>
 
 <script setup>
+
 import { ref } from 'vue'
 
 const atual = ref(0)
@@ -90,6 +62,20 @@ const proximo = () => {
 const anterior = () => {
   atual.value = (atual.value - 1 + dicas.length) % dicas.length
 }
+</script>
+
+/*impostação dos componentes*/
+<script>
+import AppHeader from "@/components/AppHeader.vue";
+import AppFooterProtecao from "@/components/AppFooterProtecao.vue";
+
+export default {
+  name: "ComoMeProtegerDicasRapidas",
+  components: {
+    AppHeader,
+    AppFooterProtecao
+  }
+};
 </script>
 
 <style>

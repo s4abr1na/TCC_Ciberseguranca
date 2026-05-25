@@ -13,10 +13,8 @@
         <img src="@/assets/icone-voltar.png" class="icone-voltar"/>
       </button>
 
-      <div class="titulo-pagina">Ciber Agente</div>
-
-      <p class="texto-descricao">
-        Olá! Sou o Ciber Agente.
+      <p class="texto-descricao-agente">
+        Olá! Eu sou o CiberGuardião.
       </p>
 
       <!-- histórico de mensagens -->
@@ -139,6 +137,12 @@ export default {
   gap: 12px;
   padding-bottom: 16px;
   margin-top: 10px;
+}
+
+.texto-descricao-agente{
+  font-size: 20px;
+  color: #333;
+  text-align: center;
 }
 
 .mensagem-inicial {

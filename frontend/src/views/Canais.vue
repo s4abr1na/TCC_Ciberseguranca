@@ -1,10 +1,7 @@
 <template>
   <div class="pagina-canais-de-comunicacao">
-    <header class="header-azul">
-      <div class="logo-area">
-        <img src="@/assets/logo-fundo-branco-lupa.png" class="logo-imagem"/>
-      </div>
-    </header>
+    
+    <AppHeader />
 
     <main class="conteudo">
     <button @click="$router.back()" class="btn-voltar">
@@ -85,36 +82,15 @@
 </main>
 
     <!--menu navegação-->
-    <footer class="menu-inferior">
-      <button @click="$router.push('/home')" class="nav-item">
-        <img src="@/assets/icone-home-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Início</span>
-      </button>
+    <AppFooterCanais />
 
-      <button @click="$router.push('/tipos-de-ataques')" class="nav-item">
-        <img src="@/assets/icone-ataques-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Ataques</span>
-      </button>
-
-      <button @click="$router.push('/pagina-como-me-proteger')" class="nav-item">
-        <img src="@/assets/icone-protecao-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Proteção</span>
-      </button>
-
-      <button @click="$router.push('/pagina-boas-praticas')" class="nav-item">
-        <img src="@/assets/icone-boas-praticas-vazio.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Boas práticas</span>
-      </button>
-
-      <button @click="$router.push('/pagina-canais-de-comunicacao')" class="nav-item">
-        <img src="@/assets/icone-canais-preenchido.png" class="icone-menu-navegacao"/>
-        <span class="nav-texto">Canais</span>
-      </button>
-    </footer>
   </div>
 </template>
 
 <script>
+import AppHeader from '@/components/AppHeader.vue'
+import AppFooterCanais from '@/components/AppFooterCanais.vue'
+
 export default {
   name: 'PaginaCanaisComunicacao',
   data() {
@@ -128,6 +104,10 @@ export default {
       //se clicar no item que já está aberto, ele fecha (vira null). Se não, abre o novo.
       this.itemAberto = this.itemAberto === id ? null : id;
     }
+  },
+  components: {
+    AppHeader,
+    AppFooterCanais
   }
 }
 </script>

@@ -53,9 +53,10 @@ const router = useRouter()
 const atual = ref(0)
 
 const onboarding = [
-  'Navegue no mundo digital com mais confiança e aprenda sobre segurança cibernética',
-  'Aprenda a reconhecer golpes, proteger seus dados e conversar com amigos e familiares com muito mais segurança',
-  'Desenvolvido como Trabalho de Conclusão de Curso, o objetivo é promover a inclusão digital à pessoa idosa'
+  'Ataques digitais acontecem todos os dias, e qualquer pessoa pode ser um alvo de criminosos cibernéticos',
+  'A segurança cibernética existe para proteger redes, sistemas e informações contra acessos não autorizados e golpes virtuais',
+  'Desenvolvido como Trabalho de Conclusão de Curso, o objetivo é instruir a pessoa idosa em navegação segura no ciberespaço',
+  'Explore, aprenda e navegue com muito mais segurança!!'
 ]
 
 const proximo = () => {
