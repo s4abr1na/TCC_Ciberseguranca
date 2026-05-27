@@ -16,11 +16,17 @@
         <p class="subtitulo-tema">Wi-Fi e Internet</p>
         
         <p class="texto-descricao">
-            O uso de Wi-Fi e internet é uma parte essencial da vida moderna, mas também pode expor seus dados a riscos. Redes Wi-Fi públicas, por exemplo, podem ser usadas por criminosos para interceptar informações sensíveis.
-            <br><br>
-            Para se proteger, evite acessar contas bancárias ou outras informações confidenciais em redes Wi-Fi públicas. Use sempre uma conexão segura e confiável.
-            <br><br>
-            Além disso, mantenha seu dispositivo atualizado com as últimas correções de segurança e utilize um firewall e antivírus confiáveis. Com alguns cuidados simples, você pode aproveitar toda a praticidade da internet com muito mais segurança e tranquilidade.
+          As redes de internet, especialmente as públicas e gratuitas, podem ser usadas como porta de entrada para ataques digitais. 
+          <br><br>
+          Um tipo comum é o chamado "ataque do homem do meio", em que o criminoso se posiciona entre o usuário e a rede para interceptar tudo o que é enviado e recebido — incluindo senhas, mensagens e dados bancários. 
+          <br><br>
+          Outra modalidade é a criação de redes Wi-Fi falsas com nomes parecidos com os de lugares conhecidos (como "Shopping_Free_WiFi"), que enganam as pessoas e capturam seus dados assim que elas se conectam. 
+          <br><br>
+          Esse tipo de ataque é silencioso e invisível para a vítima, que normalmente não percebe que está sendo monitorada. 
+          <br><br>
+          Os prejuízos incluem o roubo de senhas e informações pessoais e o acesso indevido a contas e serviços. 
+          <br><br>
+          Evitar usar redes públicas para acessar bancos ou serviços sensíveis e preferir os dados móveis do celular nesses casos são medidas simples e eficazes.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -39,14 +45,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rpC723CLaVk?si=X0CJjcz_Fz2BNfiu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

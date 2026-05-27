@@ -16,16 +16,13 @@
         <p class="subtitulo-tema">Redes sociais</p>
         
         <p class="texto-descricao">
-          Backup é o Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidente ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          As redes sociais, como Facebook, Instagram e WhatsApp, são ótimas ferramentas para manter contato com amigos e familiares, mas pedem atenção e cuidado. Revise suas configurações de privacidade para controlar quem pode ver suas publicações, aceite apenas pessoas que você realmente conhece e desconfie de perfis que tentam se aproximar rapidamente, especialmente pedindo dinheiro ou informações pessoais. Evite também publicar informações que indiquem que sua casa ficará vazia, como fotos de viagens em tempo real.
         </p>
 
         <button class="btn-cartilha" @click="abrirModal('cartilha')">
           Cartilha
         </button>
 
-        <button class="btn-podcast" @click="abrirModal('podcast')">
-          Podcast
-        </button>
       </section>
     </main>
 
@@ -34,24 +31,11 @@
       <div class="modal-container">
 
         <div class="modal-header">
-          <span class="modal-titulo">{{ tipoModal === 'podcast' ? 'Podcast' : 'Cartilha' }}</span>
           <button class="btn-fechar" @click="fecharModal">✕</button>
         </div>
 
-        <!-- Podcast: abre dentro do app com iframe -->
-        <iframe
-          v-if="tipoModal === 'podcast'"
-          src="https://www.youtube.com/embed/o4enW8NP-JY?autoplay=1"
-          title="Podcast - Autenticação"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          class="modal-iframe"
-        />
-
         <!-- Cartilha: abre PDF no navegador externo -->
-        <div v-else-if="tipoModal === 'cartilha'" class="modal-cartilha">
+        <div v-if="tipoModal === 'cartilha'" class="modal-cartilha">
           <p>A cartilha será aberta no seu navegador.</p>
           <button class="btn-abrir-cartilha" @click="abrirCartilha">
             Abrir Cartilha
@@ -72,7 +56,7 @@ import AppFooterBoasPraticas from '@/components/AppFooterBoasPraticas.vue'
 import { Browser } from '@capacitor/browser'
 
 export default {
-  name: 'BoasPraticasAutenticacao',
+  name: 'BoasPraticasRedesSociais',
 
   components: {
     AppHeader,
@@ -98,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/autenticacao/fasciculo-autenticacao.pdf' })
+      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/redes-sociais/fasciculo-redes-sociais.pdf' })
       this.fecharModal()
     }
   }

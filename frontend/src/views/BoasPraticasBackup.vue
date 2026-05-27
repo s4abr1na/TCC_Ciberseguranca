@@ -16,16 +16,13 @@
         <p class="subtitulo-tema">Backup</p>
         
         <p class="texto-descricao">
-          Backup é o Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidente ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Backup é uma cópia de segurança dos seus arquivos digitais, como fotos de família, documentos importantes e contatos. Imagine perder todas essas memórias por causa de uma falha no celular ou no computador, o backup existe justamente para evitar isso. Ele pode ser feito em um pen drive, HD externo ou na nuvem (como o Google Fotos ou iCloud). O ideal é fazer essa cópia com regularidade, pelo menos uma vez por semana, para garantir que nenhuma informação importante seja perdida.
         </p>
 
         <button class="btn-cartilha" @click="abrirModal('cartilha')">
           Cartilha
         </button>
 
-        <button class="btn-podcast" @click="abrirModal('podcast')">
-          Podcast
-        </button>
       </section>
     </main>
 
@@ -34,24 +31,11 @@
       <div class="modal-container">
 
         <div class="modal-header">
-          <span class="modal-titulo">{{ tipoModal === 'podcast' ? 'Podcast' : 'Cartilha' }}</span>
           <button class="btn-fechar" @click="fecharModal">✕</button>
         </div>
 
-        <!-- Podcast: abre dentro do app com iframe -->
-        <iframe
-          v-if="tipoModal === 'podcast'"
-          src="https://www.youtube.com/embed/o4enW8NP-JY?autoplay=1"
-          title="Podcast - Autenticação"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          class="modal-iframe"
-        />
-
         <!-- Cartilha: abre PDF no navegador externo -->
-        <div v-else-if="tipoModal === 'cartilha'" class="modal-cartilha">
+        <div v-if="tipoModal === 'cartilha'" class="modal-cartilha">
           <p>A cartilha será aberta no seu navegador.</p>
           <button class="btn-abrir-cartilha" @click="abrirCartilha">
             Abrir Cartilha
@@ -98,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/autenticacao/fasciculo-autenticacao.pdf' })
+      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/backup/fasciculo-backup.pdf' })
       this.fecharModal()
     }
   }

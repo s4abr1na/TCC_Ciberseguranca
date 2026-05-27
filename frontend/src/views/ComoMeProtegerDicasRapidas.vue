@@ -45,14 +45,14 @@ import { ref } from 'vue'
 const atual = ref(0)
 
 const dicas = [
-  'Não abra e-mails e anexos de fontes suspeitas.',
-  'Utilize autenticação multifator.',
-  'Desconfie de ofertas tentadoras.',
-  'Mantenha seu antivírus e antimalware atualizados.',
-  'Use senhas fortes.',
-  'Prefira navegar em sites com HTTPS.',
-  'Cuidado com downloads e aplicativos desconhecidos.',
-  'Não forneça dados pessoais, de cartão ou senhas a desconhecidos.'
+  'Não abra e-mails e anexos de fontes suspeitas',
+  'Utilize autenticação multifator',
+  'Desconfie de ofertas tentadoras',
+  'Mantenha seu antivírus e antimalware atualizados',
+  'Use senhas fortes',
+  'Prefira navegar em sites com HTTPS',
+  'Cuidado com downloads e aplicativos desconhecidos',
+  'Não forneça dados pessoais, de cartão ou senhas a desconhecidos'
 ]
 
 const proximo = () => {

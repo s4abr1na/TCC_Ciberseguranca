@@ -16,11 +16,13 @@
         <p class="subtitulo-tema">Segurança no Seu Aparelho</p>
         
         <p class="texto-descricao">
-            A segurança do seu aparelho é fundamental para proteger suas informações e dados pessoais. Um celular ou tablet bem protegido pode evitar perdas significativas e manter sua privacidade.
-            <br><br>
-            Existem várias medidas que você pode tomar para garantir a segurança do seu dispositivo, como manter o sistema operacional atualizado, usar senhas fortes e biometria, e ter cautela ao clicar em links ou baixar aplicativos.
-            <br><br>
-            Com alguns cuidados simples, você pode aproveitar toda a praticidade desses aplicativos com muito mais segurança e tranquilidade.
+          Ataques direcionados ao próprio aparelho — seja celular, tablet ou computador — são muito frequentes e podem acontecer de formas variadas. 
+          <br><br>
+          O criminoso pode explorar falhas no sistema operacional desatualizado, instalar programas maliciosos sem que o usuário perceba, ou acessar o aparelho fisicamente caso ele seja furtado ou emprestado. 
+          <br><br>
+          Esses ataques comprometem toda a segurança do dispositivo de uma vez só, dando ao invasor acesso a mensagens, fotos, aplicativos, senhas salvas e dados bancários. 
+          <br><br>
+          Os prejuízos são amplos: perda de privacidade, roubo de identidade, golpes financeiros e até o uso do seu aparelho para atacar outras pessoas, sem que você saiba.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -39,14 +41,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ShVBcxzrK0A?si=RXll9zChQxmFSSvG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

@@ -16,11 +16,15 @@
         <p class="subtitulo-tema">Notícias Falsas</p>
         
         <p class="texto-descricao">
-            As notícias falsas são uma das formas mais comuns de manipulação da informação em ambientes digitais. Elas podem ser disseminadas por meio de redes sociais, e-mails ou sites maliciosos, com o objetivo de enganar e influenciar a opinião pública.
-            <br><br>
-            Para se proteger contra as notícias falsas, é importante verificar a fonte da informação, buscar confirmação em outros meios confiáveis e não compartilhar conteúdo sem antes verificar sua veracidade. Além disso, manter-se informado sobre os principais temas e tendências da atualidade pode ajudar a identificar informações suspeitas.
-            <br><br>
-            A conscientização sobre o tema é fundamental para combater a desinformação e promover um ambiente digital mais seguro e responsável.
+          As notícias falsas, conhecidas como fake news, são um tipo de ataque à informação e à confiança das pessoas. 
+          <br><br>
+          Elas são criadas e espalhadas intencionalmente para enganar, manipular opiniões, gerar pânico ou desviar a atenção de assuntos importantes. 
+          <br><br>
+          No contexto da segurança digital, notícias falsas também são usadas como isca: uma mensagem alarmante pode induzir a vítima a clicar em um link malicioso, baixar um arquivo infectado ou fornecer dados pessoais. 
+          <br><br>
+          Esse tipo de ataque é amplamente difundido e se espalha principalmente pelo WhatsApp e pelas redes sociais. 
+          <br><br>
+          Os prejuízos vão além do individual: fake news podem prejudicar a saúde pública, influenciar eleições, destruir reputações e causar conflitos entre pessoas e comunidades.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -39,14 +43,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/69FjRnhxFfM?si=SB_S0pf7HJLstWPR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

@@ -16,11 +16,15 @@
         <p class="subtitulo-tema">Compras pela Internet</p>
         
         <p class="texto-descricao">
-            As compras online têm se tornado cada vez mais comuns, oferecendo conveniência e variedade. No entanto, é importante estar atento aos riscos associados a essas transações. Golpes e fraudes podem ocorrer quando você não toma as devidas precauções.
-            <br><br>
-            Criminosos podem tentar enganar você com sites falsos, ofertas ilusórias ou práticas comerciais desonestas para roubar seus dados e informações financeiras. Por isso, é importante sempre verificar a legitimidade do site antes de realizar qualquer compra e utilizar métodos de pagamento seguros.
-            <br><br>
-            Outra dica importante é manter o navegador atualizado e utilizar softwares de proteção contra malware. Com alguns cuidados simples, você pode aproveitar toda a praticidade das compras online com muito mais segurança e tranquilidade.
+          As compras pela internet cresceram muito nos últimos anos, e com elas também aumentaram os ataques voltados a consumidores online. 
+          <br><br>
+          Os golpes mais comuns incluem lojas virtuais falsas criadas para receber o pagamento e nunca entregar o produto, anúncios fraudulentos em redes sociais com preços muito abaixo do mercado, e sites que imitam lojas conhecidas para roubar os dados do cartão de crédito. 
+          <br><br>
+          Há ainda o chamado "boleto falso", em que o comprador realiza o pagamento mas o dinheiro vai para a conta do criminoso. 
+          <br><br>
+          Os prejuízos incluem a perda do dinheiro pago, o roubo dos dados do cartão e, em casos mais graves, o uso dessas informações para fazer compras adicionais sem autorização. 
+          <br><br>
+          Comprar apenas em sites conhecidos, verificar o endereço do site com atenção e preferir meios de pagamento com proteção ao consumidor são atitudes que reduzem muito o risco.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -39,14 +43,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/gzuPQvgTot8?si=Wr47yR5UQ5Jbnldn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

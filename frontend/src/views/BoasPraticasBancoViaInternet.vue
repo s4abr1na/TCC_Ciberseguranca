@@ -16,16 +16,13 @@
         <p class="subtitulo-tema">Banco via internet</p>
         
         <p class="texto-descricao">
-          Backup é o Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidente ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Acessar o banco pela internet trouxe muito mais praticidade para o dia a dia, permitindo pagar contas, fazer transferências e consultar saldo sem precisar sair de casa. No entanto, é fundamental tomar alguns cuidados: use sempre o aplicativo oficial do seu banco, baixado diretamente da loja do seu celular, ou acesse o site digitando o endereço correto no navegador. Nunca clique em links recebidos por e-mail ou mensagem dizendo ser do banco, e jamais compartilhe sua senha com ninguém (nem com quem se identifica como funcionário da instituição).
         </p>
 
         <button class="btn-cartilha" @click="abrirModal('cartilha')">
           Cartilha
         </button>
 
-        <button class="btn-podcast" @click="abrirModal('podcast')">
-          Podcast
-        </button>
       </section>
     </main>
 <!-- Modal -->
@@ -33,24 +30,11 @@
       <div class="modal-container">
 
         <div class="modal-header">
-          <span class="modal-titulo">{{ tipoModal === 'podcast' ? 'Podcast' : 'Cartilha' }}</span>
           <button class="btn-fechar" @click="fecharModal">✕</button>
         </div>
 
-        <!-- Podcast: abre dentro do app com iframe -->
-        <iframe
-          v-if="tipoModal === 'podcast'"
-          src="https://www.youtube.com/embed/o4enW8NP-JY?autoplay=1"
-          title="Podcast - Autenticação"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          class="modal-iframe"
-        />
-
         <!-- Cartilha: abre PDF no navegador externo -->
-        <div v-else-if="tipoModal === 'cartilha'" class="modal-cartilha">
+        <div v-if="tipoModal === 'cartilha'" class="modal-cartilha">
           <p>A cartilha será aberta no seu navegador.</p>
           <button class="btn-abrir-cartilha" @click="abrirCartilha">
             Abrir Cartilha
@@ -71,7 +55,7 @@ import AppFooterBoasPraticas from '@/components/AppFooterBoasPraticas.vue'
 import { Browser } from '@capacitor/browser'
 
 export default {
-  name: 'BoasPraticasAutenticacao',
+  name: 'BoasPraticasBancoViaInternet',
 
   components: {
     AppHeader,
@@ -97,7 +81,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/autenticacao/fasciculo-autenticacao.pdf' })
+      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/banco-via-internet/fasciculo-banco-via-internet.pdf' })
       this.fecharModal()
     }
   }

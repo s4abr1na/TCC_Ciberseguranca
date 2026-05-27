@@ -16,16 +16,13 @@
         <p class="subtitulo-tema">Comércio via Internet</p>
         
         <p class="texto-descricao">
-          Backup é o Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidente ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Comprar pela internet pode ser muito vantajoso: há mais variedade, preços competitivos e a comodidade de receber em casa. Porém, é preciso ter atenção para não cair em armadilhas. Prefira lojas conhecidas e com boa reputação, verifique se o site possui o símbolo de cadeado na barra de endereço (indicando que é seguro) e pesquise avaliações de outros compradores antes de finalizar a compra. Desconfie de ofertas com preços muito abaixo do mercado e evite fazer pagamentos via depósito ou Pix para vendedores desconhecidos.
         </p>
 
         <button class="btn-cartilha" @click="abrirModal('cartilha')">
           Cartilha
         </button>
 
-        <button class="btn-podcast" @click="abrirModal('podcast')">
-          Podcast
-        </button>
       </section>
     </main>
 
@@ -34,24 +31,11 @@
       <div class="modal-container">
 
         <div class="modal-header">
-          <span class="modal-titulo">{{ tipoModal === 'podcast' ? 'Podcast' : 'Cartilha' }}</span>
           <button class="btn-fechar" @click="fecharModal">✕</button>
         </div>
 
-        <!-- Podcast: abre dentro do app com iframe -->
-        <iframe
-          v-if="tipoModal === 'podcast'"
-          src="https://www.youtube.com/embed/o4enW8NP-JY?autoplay=1"
-          title="Podcast - Autenticação"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          class="modal-iframe"
-        />
-
         <!-- Cartilha: abre PDF no navegador externo -->
-        <div v-else-if="tipoModal === 'cartilha'" class="modal-cartilha">
+        <div v-if="tipoModal === 'cartilha'" class="modal-cartilha">
           <p>A cartilha será aberta no seu navegador.</p>
           <button class="btn-abrir-cartilha" @click="abrirCartilha">
             Abrir Cartilha
@@ -72,7 +56,7 @@ import AppFooterBoasPraticas from '@/components/AppFooterBoasPraticas.vue'
 import { Browser } from '@capacitor/browser'
 
 export default {
-  name: 'BoasPraticasAutenticacao',
+  name: 'BoasPraticasComercioViaInternet',
 
   components: {
     AppHeader,
@@ -98,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/autenticacao/fasciculo-autenticacao.pdf' })
+      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/comercio-via-internet/fasciculo-comercio-via-internet.pdf' })
       this.fecharModal()
     }
   }

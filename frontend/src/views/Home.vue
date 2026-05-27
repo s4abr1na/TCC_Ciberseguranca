@@ -48,6 +48,15 @@
           <br>
           Orientadora: Prof.ª Dr.ª Cristiane Jorge de Lima Bonfim
         </li>
+
+        <li>Siga-nos nas redes sociais<br><br>
+          <a href="https://www.instagram.com/ciberguardiaotcc/" target="_blank">
+            <img src="@/assets/icone-instagram.png" class="icone-redes-sociais"/>
+          </a>      
+          <a href="https://www.youtube.com/@CiberGuardiaoTCC" target="_blank">
+            <img src="@/assets/icone-youtube.png" class="icone-redes-sociais"/>
+          </a> 
+        </li>
       </ul>
     </nav>
 
@@ -144,6 +153,12 @@ export default {
   transform: translateX(0);
 }
 
+.icone-redes-sociais{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
 .btn-fechar {
   background: none;
   border: none;
@@ -194,7 +209,6 @@ export default {
   border-radius: 50px;
   font-size: 16px;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   z-index: 99;
 }
 

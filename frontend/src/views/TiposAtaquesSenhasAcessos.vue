@@ -16,15 +16,15 @@
         <p class="subtitulo-tema">Senhas e Acessos</p>
         
         <p class="texto-descricao">
-          Suas senhas são a identidade digital. Se alguém as possui, essa pessoa se torna "você" perante o sistema. Para se proteger sem complicações, foque em três pilares:
+          Um dos ataques mais comuns no mundo digital é justamente o roubo ou a descoberta de senhas. 
           <br><br>
-          Unicidade: Nunca repita senhas. Se o site "A" vazar, suas contas no "B" e "C" continuam seguras. Use frases-senha (ex: MeuCachorroLêLivros2026!), que são longas e fáceis de lembrar, mas difíceis para máquinas quebrarem.
+          Criminosos utilizam diversas técnicas para isso: podem tentar combinações óbvias como datas de nascimento e nomes de pessoas próximas, usar programas que testam milhares de senhas automaticamente, ou ainda enganar a vítima para que ela mesma entregue sua senha sem perceber. 
           <br><br>
-          O Segundo Escudo (MFA): Ative a autenticação de dois fatores. É a ferramenta mais eficaz hoje: mesmo que o hacker descubra sua senha, ele não entra sem o código extra no seu celular.
+          Esse tipo de ataque é extremamente comum e pode acontecer com qualquer pessoa que use a internet. 
           <br><br>
-          Gerenciadores: Use um gerenciador de senhas (como Bitwarden ou iCloud). Eles geram senhas aleatórias e você só precisa decorar uma única senha mestra.
+          Uma vez que o criminoso tem acesso à sua senha, ele pode entrar nas suas contas de banco, e-mail ou redes sociais, realizar transações financeiras em seu nome, roubar informações pessoais e até bloquear o acesso para que você não consiga mais recuperar sua própria conta. 
           <br><br>
-          Regra de Ouro: Se a senha é fácil de lembrar para você, ela provavelmente é fácil de prever para um software de ataque. Tamanho importa mais que símbolos complexos.
+          Os prejuízos vão desde a perda de dinheiro até o comprometimento da sua identidade digital.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -43,14 +43,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/nKPAlY3Taxs?si=bkdVLatjo7t5iERz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

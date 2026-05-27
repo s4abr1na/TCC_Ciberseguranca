@@ -16,9 +16,17 @@
         <p class="subtitulo-tema">Vazamento de Dados</p>
         
         <p class="texto-descricao">
-            Um vazamento de dados ocorre quando informações pessoais ou confidenciais são expostas sem autorização. Isso pode acontecer devido a falhas de segurança, ataques cibernéticos ou erros humanos. 
-            <br><br>
-            Os dados vazados podem incluir senhas, números de cartão de crédito, endereços e outras informações sensíveis.
+          O vazamento de dados é um tipo de incidente em que informações pessoais de muitas pessoas são expostas sem autorização, geralmente devido a falhas de segurança em empresas, instituições ou serviços digitais que armazenam esses dados. 
+          <br><br>
+          Ele pode acontecer por ataques de hackers, por descuido de funcionários ou por falhas nos sistemas de proteção das organizações. 
+          <br><br>
+          No Brasil, vazamentos de grande escala já expuseram dados de centenas de milhões de pessoas, incluindo CPFs, endereços, dados bancários e muito mais. 
+          <br><br>
+          Os prejuízos para as vítimas são sérios: as informações expostas podem ser usadas para aplicar golpes, abrir contas fraudulentas ou praticar o roubo de identidade. 
+          <br><br>
+          O problema é que, na maioria das vezes, a pessoa não sabe que seus dados foram vazados até ser contactada por um golpista ou notar movimentações suspeitas. 
+          <br><br>
+          Monitorar regularmente suas contas, trocar senhas periodicamente e usar ferramentas que alertam sobre vazamentos são formas de se manter protegido.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -37,14 +45,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ruOUbAPqObo?si=X4dAqc3-fY3UoJQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

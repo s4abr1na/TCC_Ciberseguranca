@@ -16,16 +16,13 @@
         <p class="subtitulo-tema">Autenticação</p>
 
         <p class="texto-descricao">
-          Autenticação é o processo de confirmar a identidade de um usuário ou sistema antes de permitir acesso a recursos.
+          Autenticação é o processo que confirma que você é realmente você ao acessar um site, aplicativo ou serviço digital. A forma mais comum é o uso de senha, mas hoje existem métodos ainda mais seguros, como a verificação em duas etapas, que envia um código extra para o seu celular sempre que você faz login. Criar senhas fortes, com letras, números e símbolos, e nunca repeti-las em sites diferentes são atitudes simples que fazem grande diferença na proteção das suas contas.
         </p>
 
         <button class="btn-cartilha" @click="abrirModal('cartilha')">
           Cartilha
         </button>
 
-        <button class="btn-podcast" @click="abrirModal('podcast')">
-          Podcast
-        </button>
       </section>
     </main>
 
@@ -34,24 +31,11 @@
       <div class="modal-container">
 
         <div class="modal-header">
-          <span class="modal-titulo">{{ tipoModal === 'podcast' ? 'Podcast' : 'Cartilha' }}</span>
           <button class="btn-fechar" @click="fecharModal">✕</button>
         </div>
 
-        <!-- Podcast: abre dentro do app com iframe -->
-        <iframe
-          v-if="tipoModal === 'podcast'"
-          src="https://www.youtube.com/embed/o4enW8NP-JY?autoplay=1"
-          title="Podcast - Autenticação"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          class="modal-iframe"
-        />
-
         <!-- Cartilha: abre PDF no navegador externo -->
-        <div v-else-if="tipoModal === 'cartilha'" class="modal-cartilha">
+        <div v-if="tipoModal === 'cartilha'" class="modal-cartilha">
           <p>A cartilha será aberta no seu navegador.</p>
           <button class="btn-abrir-cartilha" @click="abrirCartilha">
             Abrir Cartilha

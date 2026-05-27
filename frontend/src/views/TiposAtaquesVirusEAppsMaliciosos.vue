@@ -16,11 +16,15 @@
         <p class="subtitulo-tema">Vírus e Aplicativos Maliciosos</p>
         
         <p class="texto-descricao">
-            Os vírus e aplicativos maliciosos são programas que se infiltram em seu dispositivo sem seu conhecimento, podendo causar danos significativos aos seus dados e à segurança do sistema. Eles podem ser transmitidos por e-mails, links suspeitos, downloads não confiáveis ou até mesmo por meio de dispositivos conectados.
-            <br><br>
-            Para se proteger, é essencial manter seu sistema operacional e softwares atualizados, utilizar um antivírus confiável e evitar clicar em links ou baixar arquivos de fontes desconhecidas. Além disso, sempre que possível, evite usar Wi-Fi públicas para acessar informações sensíveis.
-            <br><br>
-            Com algumas práticas simples de segurança, você pode reduzir significativamente o risco de se infectar com vírus ou aplicativos maliciosos.
+          Vírus e aplicativos maliciosos são programas criados especificamente para causar danos ou roubar informações. 
+          <br><br>
+          Eles podem se disfarçar de jogos, aplicativos utilitários, atualizações de sistema ou até de antivírus falsos. 
+          <br><br>
+          Uma vez instalados no aparelho, agem silenciosamente: alguns registram tudo o que você digita, outros capturam fotos e vídeos pela câmera, e há ainda os que usam seu aparelho para atacar outros dispositivos. 
+          <br><br>
+          Esse tipo de ameaça é uma das mais comuns no mundo digital e evolui constantemente para driblar as proteções existentes. 
+          <br><br>
+          Os prejuízos incluem roubo de senhas e dados bancários, invasão de privacidade, lentidão e danos ao aparelho, e prejuízos financeiros significativos.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -39,14 +43,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LrG82ajTBcA?si=mr5jP7J7F0-NPDPp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

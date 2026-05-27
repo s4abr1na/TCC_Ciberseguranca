@@ -12,56 +12,45 @@
       </div>
 
       <nav class="lista-ataques">
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-senhas-e-acessos')">
-          <span class="texto">Senhas e acessos</span>
-        </button>
-
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-copia-de-seguranca')">
-          <span class="texto">Cópia de segurança</span>
-        </button>
 
         <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-aplicativos-financeiros')">
           <span class="texto">Aplicativos financeiros</span>
+        </button>
+
+        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-compras-pela-internet')"> 
+          <span class="texto">Compras pela internet</span>
+        </button>
+
+        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-dados-pessoais')"> 
+          <span class="texto">Dados pessoais</span>
         </button>
 
         <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-noticias-falsas')">
           <span class="texto">Notícias falsas</span>
         </button>
 
+        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-redes-sociais')">
+          <span class="texto">Redes sociais</span>
+        </button>
+
         <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-seguranca-aparelho')">
           <span class="texto">Segurança no seu aparelho</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-virus-e-aplicativos-maliciosos')">
-          <span class="texto">Vírus e Aplicativos Maliciosos</span>
-        </button>
-        
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-compras-pela-internet')"> 
-          <span class="texto">Compras pela internet</span>
+        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-senhas-e-acessos')">
+          <span class="texto">Senhas e acessos</span>
         </button>
 
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-mensagens-e-links-falsos')"> 
-          <span class="texto">Mensagens e links falsos</span>
-        </button>
-
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-dados-pessoais')"> 
-          <span class="texto">Dados pessoais</span>
-        </button>
-        
         <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-wifi-e-internet')">
           <span class="texto">Uso de Wi-fi e Internet</span>
-        </button>
-        
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-redes-sociais')">
-          <span class="texto">Redes sociais</span>
-        </button>
-        
-        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-trabalho-remoto')">
-          <span class="texto">Trabalho remoto</span>
         </button>
 
         <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-vazamento-de-dados')">
           <span class="texto">Vazamento de Dados</span>
+        </button>
+
+        <button class="item-ataque" @click="$router.push('/tipos-ataques-pagina-virus-e-aplicativos-maliciosos')">
+          <span class="texto">Vírus e Aplicativos Maliciosos</span>
         </button>
       </nav>
     </main>

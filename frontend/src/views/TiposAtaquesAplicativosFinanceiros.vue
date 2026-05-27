@@ -16,11 +16,13 @@
         <p class="subtitulo-tema">Aplicativos Financeiros</p>
         
         <p class="texto-descricao">
-            Os aplicativos financeiros, como os de bancos e pagamentos, facilitam muito a vida no dia a dia. Com eles, é possível pagar contas, fazer transferências e acompanhar seu dinheiro sem sair de casa. Porém, justamente por lidarem com informações importantes, eles também podem ser alvo de golpes e ataques virtuais.
+            Os aplicativos financeiros, como os de banco, carteira digital e investimentos, são alvos frequentes de ataques digitais por envolverem diretamente o dinheiro das pessoas. 
             <br><br>
-            Criminosos podem tentar enganar você com mensagens falsas, aplicativos falsificados ou links suspeitos para roubar seus dados e acessar sua conta. Por isso, é importante sempre baixar aplicativos apenas das lojas oficiais do seu celular e nunca compartilhar senhas ou códigos recebidos por mensagem.
-            <br><br>            
-            Outra dica importante é manter o celular protegido com senha ou biometria e evitar usar aplicativos financeiros em redes Wi-Fi públicas. Com alguns cuidados simples, você pode aproveitar toda a praticidade desses aplicativos com muito mais segurança e tranquilidade.
+            Os criminosos atuam de diferentes formas: criam aplicativos falsos que imitam os originais para roubar senhas e dados, enviam mensagens pedindo que a vítima atualize o app por meio de um link falso, ou instalam programas espiões no celular que capturam tudo o que é digitado. 
+            <br><br>
+            Esse tipo de ataque é muito comum e cresce a cada ano, especialmente com o aumento do uso do Pix e dos bancos digitais. 
+            <br><br>
+            Os prejuízos podem ser graves: transferências não autorizadas, esvaziamento de contas, empréstimos feitos em nome da vítima e até o comprometimento do score de crédito.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -39,14 +41,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4EV7-DkClOk?si=VVHwUzIEDxI0ppsZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

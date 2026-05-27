@@ -33,9 +33,12 @@
             <!-- v-show faz o elemento aparecer e sumir instantaneamente se a condição for real -->
             <div class="custom-collapse" v-show="itemAberto === 1">
               <div class="accordion-body">
-                Passo 1: bloqueie os cartões temporários<br>
-                Passo 2: contate o seu banco<br>
-                Passo 3: faça um boletim de ocorrência              
+                <strong>Passo 1:</strong> Bloqueie imediatamente o acesso à sua conta<br>
+                <strong>Passo 2:</strong> Altere todas as senhas e credenciais de acesso<br>
+                <strong>Passo 3:</strong> Registre um boletim de ocorrência<br>
+                <strong>Passo 4:</strong> Conteste as transações não reconhecidas com o banco<br>
+                <strong>Passo 5:</strong> Monitore seu CPF e histórico de crédito<br>
+                <strong>Passo 6:</strong> Contate o seu banco
               </div>
             </div>
         </div>
@@ -49,31 +52,17 @@
                 type="button" 
                 @click="alternarItem(2)"
               >
-                Infeção por Malware / Ransomware
+                Delegacia Especial de Repressão aos Crimes Cibernéticos (DRCC)/PCDF
               </button>
             </h2>
             <div class="custom-collapse" v-show="itemAberto === 2">
               <div class="accordion-body">
-                Se o seu computador está agindo de forma estranha ou arquivos foram bloqueados...
-              </div>
-            </div>
-        </div>
-
-        <!-- ITEM 3 -->
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button 
-                class="accordion-button" 
-                :class="{ 'collapsed': itemAberto !== 3 }"
-                type="button" 
-                @click="alternarItem(3)"
-              >
-                Vazamento de Dados ou Credenciais
-              </button>
-            </h2>
-            <div class="custom-collapse" v-show="itemAberto === 3">
-              <div class="accordion-body">
-                Caso suspeite que senhas ou dados confidenciais de clientes foram expostos, acione diretamente o comitê de privacidade (LGPD) pelo canal oficial no Slack ou Teams.
+                Disque 197 | WhatsApp (61) 98626-1197 | denuncia197@pcdf.df.gov.br<br>
+                <strong>Passo 1:</strong> Não apague nada — preserve as evidências digitais<br>
+                <strong>Passo 2:</strong> Registre o Boletim de Ocorrência o quanto antes<br>
+                <strong>Passo 3:</strong> Leve as evidências à delegacia e detalhe o ocorrido<br>
+                <strong>Passo 4:</strong> Solicite abertura de investigação e guarde o protocolo<br>
+                <strong>Passo 5:</strong> Busque orientação jurídica e considere ação civil
               </div>
             </div>
         </div>

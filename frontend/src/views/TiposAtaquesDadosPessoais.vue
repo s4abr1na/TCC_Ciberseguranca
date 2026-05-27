@@ -16,9 +16,15 @@
         <p class="subtitulo-tema">Dados Pessoais</p>
         
         <p class="texto-descricao">
-            Os dados pessoais são informações que identificam você e podem ser usadas por criminosos para cometer fraudes. É importante proteger esses dados, pois podem ser usados para roubar sua identidade, acessar suas contas ou cometer outros tipos de crimes.
-            <br><br>
-            Para proteger seus dados pessoais, evite compartilhar informações sensíveis em redes sociais, use senhas fortes e únicas para cada conta e mantenha seu software atualizado. Além disso, tenha cuidado ao clicar em links suspeitos ou baixar aplicativos de fontes não confiáveis.
+          O roubo de dados pessoais é um ataque que tem como objetivo coletar informações como nome completo, CPF, data de nascimento, endereço e dados bancários para usá-las de forma criminosa. 
+          <br><br>
+          Esse tipo de ataque pode acontecer por meio de formulários falsos, sites fraudulentos, vazamentos em empresas que armazenam seus dados ou mesmo por engenharia social — quando o criminoso conversa com a vítima e a convence a fornecer as informações. 
+          <br><br>
+          Com esses dados em mãos, o criminoso pode abrir contas bancárias, solicitar empréstimos, fazer compras e cometer crimes em nome da vítima — o chamado "roubo de identidade". 
+          <br><br>
+          Os prejuízos podem ser enormes e demorar muito tempo para ser resolvidos, envolvendo processos junto a bancos, órgãos de proteção ao crédito e até a Justiça. 
+          <br><br>
+          Compartilhar dados pessoais apenas em situações realmente necessárias e em plataformas confiáveis é fundamental para evitar esse tipo de problema.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -37,14 +43,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/s4It-31WWh4?si=vRKRWu1Wvg3U_1lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

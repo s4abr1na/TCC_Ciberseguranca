@@ -8,17 +8,14 @@ import PaginaAgente from '../views/PaginaAgente.vue'
 //BOTÃO: "TIPOS DE ATAQUES"
 import TiposAtaques from '../views/TiposAtaques.vue'
 import TiposAtaquesSenhasAcessos from '@/views/TiposAtaquesSenhasAcessos.vue'
-import TiposAtaquesCopiaDeSeguranca from '@/views/TiposAtaquesCopiaDeSeguranca.vue'
 import TiposAtaquesAplicativosFinanceiros from '@/views/TiposAtaquesAplicativosFinanceiros.vue'
 import TiposAtaquesNoticiasFalsas from '@/views/TiposAtaquesNoticiasFalsas.vue'
 import TiposAtaquesSegurancaAparelho from '@/views/TiposAtaquesSegurancaAparelho.vue' 
 import TiposAtaquesVirusEAppsMaliciosos from '@/views/TiposAtaquesVirusEAppsMaliciosos.vue'
 import TiposAtaquesComprasPelaInternet from '@/views/TiposAtaquesComprasPelaInternet.vue'
-import TiposAtaquesMensagensELinksFalsos from '@/views/TiposAtaquesMensagensELinksFalsos.vue'
 import TiposAtaquesDadosPessoais from '@/views/TiposAtaquesDadosPessoais.vue'
 import TiposAtaquesWifiEInternet from '@/views/TiposAtaquesWifiEInternet.vue'
 import TiposAtaquesRedesSociais from '@/views/TiposAtaquesRedesSociais.vue'
-import TiposAtaquesTrabalhoRemoto from '@/views/TiposAtaquesTrabalhoRemoto.vue'
 import TiposAtaquesVazamentoDados from '@/views/TiposAtaquesVazamentoDados.vue'
 
 //BOTÃO: "COMO ME PROTEGER?"
@@ -85,11 +82,6 @@ const router = createRouter({
       component: TiposAtaquesSenhasAcessos
     },
     {
-      path: '/tipos-ataques-pagina-copia-de-seguranca',
-      name: 'TiposAtaquesCopiaDeSeguranca',
-      component: TiposAtaquesCopiaDeSeguranca
-    },
-    {
       path: '/tipos-ataques-pagina-aplicativos-financeiros',
       name: 'TiposAtaquesAplicativosFinanceiros',
       component: TiposAtaquesAplicativosFinanceiros
@@ -115,11 +107,6 @@ const router = createRouter({
       component: TiposAtaquesComprasPelaInternet
     },
     {
-      path: '/tipos-ataques-pagina-mensagens-e-links-falsos',
-      name: 'TiposAtaquesMensagensELinksFalsos',
-      component: TiposAtaquesMensagensELinksFalsos
-    },
-    {
       path: '/tipos-ataques-pagina-dados-pessoais',
       name: 'TiposAtaquesDadosPessoais',
       component: TiposAtaquesDadosPessoais
@@ -133,11 +120,6 @@ const router = createRouter({
       path: '/tipos-ataques-pagina-redes-sociais',
       name: 'TiposAtaquesRedesSociais',
       component: TiposAtaquesRedesSociais
-    },
-    {
-      path: '/tipos-ataques-pagina-trabalho-remoto',
-      name: 'TiposAtaquesTrabalhoRemoto',
-      component: TiposAtaquesTrabalhoRemoto
     },
     {
       path: '/tipos-ataques-pagina-vazamento-de-dados',

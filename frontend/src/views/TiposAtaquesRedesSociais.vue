@@ -16,11 +16,15 @@
         <p class="subtitulo-tema">Redes Sociais</p>
         
         <p class="texto-descricao">
-            As redes sociais são ferramentas poderosas que conectam pessoas ao redor do mundo. No entanto, elas também podem ser exploradas por criminosos para cometer fraudes e ataques. Golpistas frequentemente criam perfis falsos, enviam mensagens enganosas e compartilham links maliciosos para roubar informações pessoais e financeiras.
-            <br><br>
-            Para se proteger, é essencial manter as configurações de privacidade atualizadas, não aceitar convites de pessoas desconhecidas e evitar clicar em links suspeitos. Além disso, é importante não compartilhar informações sensíveis em público e reportar qualquer conteúdo suspeito imediatamente.
-            <br><br>
-            Com algumas precauções simples, você pode desfrutar das vantagens das redes sociais sem colocar sua segurança em risco.
+          As redes sociais são ambientes férteis para diversos tipos de ataques digitais. 
+          <br><br>
+          Entre os mais comuns estão a criação de perfis falsos para se aproximar de vítimas e obter informações ou dinheiro, o sequestro de contas por meio de senhas roubadas e o uso de informações publicadas pelos próprios usuários para aplicar golpes personalizados. 
+          <br><br>
+          Há também ataques em que criminosos usam dados coletados nas redes sociais — como nome de familiares, cidades, datas comemorativas — para adivinhar senhas ou responder perguntas de segurança. 
+          <br><br>
+          Perfis falsos de pessoas conhecidas podem ser usados para pedir dinheiro emprestado ou compartilhar links maliciosos. 
+          <br><br>
+          Os danos vão desde a perda do acesso à própria conta até prejuízos financeiros e danos à reputação. Usar senhas fortes, ativar a verificação em duas etapas e ser criterioso com o que se publica e com quem se aceita como amigo são as principais formas de se proteger.
         </p>
 
         <!-- Botão que abre o modal -->
@@ -39,14 +43,7 @@
           <span class="modal-titulo">Vídeo</span>
           <button class="btn-fechar" @click="fecharVideo">✕</button>
         </div>
-          <iframe
-            src="https://www.youtube.com/embed/2LYPyUk-L0k?si=fQzpbqQaQ5WgrsfO&autoplay=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/1wUdAFEIV_E?si=2ndAdCp6ei5SNCAX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
 

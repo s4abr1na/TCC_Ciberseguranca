@@ -32,10 +32,6 @@
           <span class="texto">Boatos</span>
         </button>
 
-        <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-celulares-tablets')">
-          <span class="texto">Celulares e tablets</span>
-        </button>
-
         <button class="item-boas-praticas" @click="$router.push('/boas-praticas-pagina-codigos-maliciosos')">
           <span class="texto">Códigos maliciosos</span>
         </button>
