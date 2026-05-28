@@ -6,7 +6,8 @@ const { GoogleGenAI } = require('@google/genai')
 const app = express()
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY })
 
-app.use(cors({ origin: 'https://tcc-ciberseguranca.vercel.app' }))
+//app.use(cors({ origin: 'https://tcc-ciberseguranca.vercel.app' }))
+app.use(cors())
 app.use(express.json())
 
 app.post('/chat', async (req, res) => {
