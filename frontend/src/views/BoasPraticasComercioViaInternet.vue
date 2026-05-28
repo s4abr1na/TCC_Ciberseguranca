@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/comercio-via-internet/fasciculo-comercio-via-internet.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1kL-x_rSCzWLfPJ-xzq3zaCg7YIEI0GHm/view?usp=sharing' })
       this.fecharModal()
     }
   }

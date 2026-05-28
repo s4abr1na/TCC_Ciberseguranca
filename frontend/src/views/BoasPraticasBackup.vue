@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/backup/fasciculo-backup.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1UsPszP9Div6gYLVC11_SHJh_z86Nn5lZ/view?usp=sharing' })
       this.fecharModal()
     }
   }

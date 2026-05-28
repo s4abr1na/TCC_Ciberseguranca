@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/codigos-maliciosos/fasciculo-codigos-maliciosos.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1PMP4Umf3pZc2tERieof249gqnAd8x4ub/view?usp=sharing' })
       this.fecharModal()
     }
   }

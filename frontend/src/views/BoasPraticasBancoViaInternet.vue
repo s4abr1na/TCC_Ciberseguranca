@@ -81,7 +81,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/banco-via-internet/fasciculo-banco-via-internet.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/12H6FOjv2yvCca19AXuMGvtYn7kLAJ9RS/view?usp=sharing' })
       this.fecharModal()
     }
   }

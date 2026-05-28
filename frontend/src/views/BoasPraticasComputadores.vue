@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/computadores/fasciculo-computadores.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1D3jxxD4jEVzSZSIhseS1_UA2NSwudRtn/view?usp=sharing' })
       this.fecharModal()
     }
   }

@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/privacidade/fasciculo-privacidade.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1kIUFPg_zekM9UGKJ2Q3Nj3_1d6yV7ya3/view?usp=sharing' })
       this.fecharModal()
     }
   }

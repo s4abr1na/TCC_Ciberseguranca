@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/redes/fasciculo-redes.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1FuK6suMn0Ia_ima1jbgfM-P97TRI1m12/view?usp=sharing' })
       this.fecharModal()
     }
   }

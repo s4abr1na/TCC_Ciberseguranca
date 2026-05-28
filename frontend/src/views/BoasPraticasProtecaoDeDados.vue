@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/protecao-de-dados/fasciculo-protecao-de-dados.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1XnxFJ2gQ331hkKqyz7Cu10uEChx2MkUk/view?usp=sharing' })
       this.fecharModal()
     }
   }

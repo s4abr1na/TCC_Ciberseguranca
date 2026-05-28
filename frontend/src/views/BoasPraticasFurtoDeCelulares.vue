@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/furto-de-celular/fasciculo-furto-de-celular.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1tq8vMIkUnin-bPg51vzcoh4J2HlTvq6A/view?usp=sharing' })
       this.fecharModal()
     }
   }

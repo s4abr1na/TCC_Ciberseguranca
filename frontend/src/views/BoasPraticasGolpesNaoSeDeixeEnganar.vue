@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/golpes/fasciculo-golpes.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1jNKMI-xQRpn-0y0aGiiLzn-OUZFRCF3I/view?usp=sharing' })
       this.fecharModal()
     }
   }

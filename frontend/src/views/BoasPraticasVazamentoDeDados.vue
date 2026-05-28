@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/vazamento-de-dados/fasciculo-vazamento-de-dados.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1xtTjxmfFY07U4hW0Y8oQ5y49lCDEYwoM/view?usp=sharing' })
       this.fecharModal()
     }
   }

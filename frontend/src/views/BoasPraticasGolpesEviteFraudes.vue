@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1y6GGgHJxHH5s6hgAB2RoQAGK9s1mdV5M/view?usp=sharing' })
       this.fecharModal()
     }
   }

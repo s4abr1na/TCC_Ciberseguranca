@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/autenticacao/fasciculo-autenticacao.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1Mkx_B1tn38krNh4RGactyzyA1eJCwh-l/view?usp=sharing' })
       this.fecharModal()
     }
   }

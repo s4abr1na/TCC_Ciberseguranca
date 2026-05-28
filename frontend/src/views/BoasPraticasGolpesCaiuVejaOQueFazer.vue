@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/golpes-o-que-fazer/fasciculo-golpes-o-que-fazer.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1OGYXVxJ59nHqpYYYW23PhgjyHiDpWXHz/view?usp=sharing' })
       this.fecharModal()
     }
   }

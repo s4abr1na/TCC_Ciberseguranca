@@ -82,7 +82,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/trabalho-remoto/fasciculo-trabalho-remoto.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1vPD6X1yKTDcWklDaeUKpAtGzgR1wSBss/view?usp=sharing' })
       this.fecharModal()
     }
   }

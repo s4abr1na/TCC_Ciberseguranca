@@ -81,7 +81,7 @@ export default {
     },
 
     async abrirCartilha() {
-      await Browser.open({ url: 'https://cartilha.cert.br/fasciculos/boatos/fasciculo-boatos.pdf' })
+      await Browser.open({ url: 'https://drive.google.com/file/d/1_YoMO0FSGuh1jlpmCVr4NKUynEm-uf67/view?usp=sharing' })
       this.fecharModal()
     }
   }
